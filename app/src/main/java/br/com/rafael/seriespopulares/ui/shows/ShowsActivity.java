@@ -1,5 +1,6 @@
 package br.com.rafael.seriespopulares.ui.shows;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -20,12 +21,19 @@ import br.com.rafael.seriespopulares.injection.component.ActivityComponent;
 import br.com.rafael.seriespopulares.ui.base.BaseMvpActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import timber.log.Timber;
 
 /**
  * Created by rafael on 9/25/16.
  **/
 
 public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View {
+
+    // Quantidade de colunas do grid
+    private static final int COLUMN_TWO = 2;
+    private static final int COLUMN_THREE = 3;
+    private static final int COLUMN_FOUR = 4;
+    private static final int COLUMN_FIVE = 5;
 
     @Inject
     protected ShowsPresenter mPresenter;
@@ -48,8 +56,6 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     @Bind(R.id.error_view)
     protected TextView mErrorView;
 
-    private int NUM_COLUMN = 2;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,10 +69,34 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
         mPresenter.getShows();
     }
 
+    /**
+     * Determina a quantidade colunas da grid de um dispositivo
+     * Se for tablet e estiver em landscape - 5
+     * Se for tablet e estiver em portrait - 4
+     * Se for smartphone e estiver em landscape - 3
+     * Se for smartphone e estiver em portrait - 2
+     * */
+    private int numColumn() {
+
+        int numColumn;
+
+        boolean isTablet = (getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK)
+                >= Configuration.SCREENLAYOUT_SIZE_LARGE;
+        int orientation = getResources().getConfiguration().orientation;
+
+        if (isTablet) {
+            numColumn = orientation == Configuration.ORIENTATION_LANDSCAPE ? COLUMN_FIVE : COLUMN_FOUR;
+        } else {
+            numColumn = orientation == Configuration.ORIENTATION_LANDSCAPE ? COLUMN_THREE : COLUMN_TWO;
+        }
+
+        return numColumn;
+    }
+
     private void setupViews() {
         mContentView.setEnabled(false);
 
-        mRecyclerView.setLayoutManager(new GridLayoutManager(this, NUM_COLUMN));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, numColumn()));
         mRecyclerView.setAdapter(mAdapter);
     }
 

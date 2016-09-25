@@ -9,5 +9,8 @@
     <!-- Layout Item Shows -->
     <string name="layout_item_show_year_format">Ano: %d</string>
     <string name="layout_item_show_rating_format">Nota: %.2f</string>
+    <string name="layout_item_shows_title_label">Title</string>
+    <string name="layout_item_shows_year_label">Year: 0</string>
+    <string name="layout_item_shows_raging_label">Rating: 0</string>
 
 </resources>

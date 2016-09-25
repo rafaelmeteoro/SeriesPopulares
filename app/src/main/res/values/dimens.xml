@@ -7,4 +7,14 @@
     <dimen name="view_error_text_size">20sp</dimen>
     <dimen name="view_erro_padding">16dp</dimen>
 
+    <!-- Layout Item Shows -->
+    <dimen name="layout_item_shows_margin">10dp</dimen>
+    <dimen name="layout_item_shows_card_corner_radius">5dp</dimen>
+    <dimen name="layout_item_shows_elevation">4dp</dimen>
+    <dimen name="layout_item_shows_iv_height">150dp</dimen>
+    <dimen name="layout_item_shows_title_margin">16dp</dimen>
+    <dimen name="layout_item_shows_title_text_size">16sp</dimen>
+    <dimen name="layout_item_shows_year_margin_top">10dp</dimen>
+    <dimen name="layout_item_shows_padding_left_right">10dp</dimen>
+
 </resources>

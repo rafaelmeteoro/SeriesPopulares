@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:elevation="4dp"
-    app:cardCornerRadius="5dp">
+    android:layout_margin="@dimen/layout_item_shows_margin"
+    android:elevation="@dimen/layout_item_shows_elevation"
+    app:cardCornerRadius="@dimen/layout_item_shows_card_corner_radius">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,8 +21,9 @@
             <ImageView
                 android:id="@+id/iv_show"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="@dimen/layout_item_shows_iv_height"
                 android:background="@color/mid_gray"
+                android:contentDescription="@null"
                 android:scaleType="centerCrop" />
 
             <TextView
@@ -30,11 +31,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/iv_show"
-                android:layout_margin="16dp"
-                android:text="Title"
+                android:layout_margin="@dimen/layout_item_shows_title_margin"
                 android:gravity="center"
+                android:text="@string/layout_item_shows_title_label"
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
+                android:textSize="@dimen/layout_item_shows_title_text_size"
                 android:textStyle="bold" />
 
         </RelativeLayout>
@@ -43,20 +44,20 @@
             android:id="@+id/tv_year"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="Year: 0" />
+            android:layout_marginTop="@dimen/layout_item_shows_year_margin_top"
+            android:paddingLeft="@dimen/layout_item_shows_padding_left_right"
+            android:paddingRight="@dimen/layout_item_shows_padding_left_right"
+            android:text="@string/layout_item_shows_year_label" />
 
         <TextView
             android:id="@+id/tv_rating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="Rating: 0" />
+            android:layout_marginBottom="@dimen/layout_item_shows_year_margin_top"
+            android:layout_marginTop="@dimen/layout_item_shows_year_margin_top"
+            android:paddingLeft="@dimen/layout_item_shows_padding_left_right"
+            android:paddingRight="@dimen/layout_item_shows_padding_left_right"
+            android:text="@string/layout_item_shows_raging_label" />
 
     </LinearLayout>
 
