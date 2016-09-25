@@ -52,6 +52,36 @@ android {
             resValue "string", "app_name", "Series Populares"
         }
     }
+
+    sourceSets {
+        def commonTestDir = 'src/commonTest/java'
+        test {
+            java.srcDir commonTestDir
+        }
+        androidTest {
+            java.srcDir commonTestDir
+        }
+    }
+
+    android.variantFilter { variant ->
+        if (variant.buildType.name.equals('release') && !variant.getFlavors().get(0).name.equals('dev')) {
+            variant.setIgnore(true);
+        }
+    }
+
+    //Needed because of this https://github.com/square/okio/issues/58
+    lintOptions {
+        warning 'InvalidPackage'
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.properties'
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.xml'
+    }
 }
 
 dependencies {
