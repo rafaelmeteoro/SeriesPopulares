@@ -20,6 +20,10 @@ public class Images implements Parcelable {
     @SerializedName(BANNER)
     private Banner banner;
 
+    public Fanart getFanart() {
+        return fanart;
+    }
+
     public Images() {
 
     }

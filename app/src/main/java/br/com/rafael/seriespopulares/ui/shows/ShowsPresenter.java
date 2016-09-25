@@ -40,6 +40,7 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
                     public void onError(Throwable e) {
                         Timber.e(e, "Erro ao carregar lista");
                         getMvpView().hideProgress();
+                        getMvpView().showError();
                     }
 
                     @Override

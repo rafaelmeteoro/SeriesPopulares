@@ -106,11 +106,17 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
 
     @Override
     public void showEmpty() {
-
+        mRecyclerView.setVisibility(View.GONE);
+        mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_empty_glass_gray, 0, 0);
+        mErrorView.setText(R.string.view_empty_text);
+        mErrorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void showError() {
-
+        mRecyclerView.setVisibility(View.GONE);
+        mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_sentiment_very_dissatisfied_gray, 0, 0);
+        mErrorView.setText(R.string.view_erro_text);
+        mErrorView.setVisibility(View.VISIBLE);
     }
 }

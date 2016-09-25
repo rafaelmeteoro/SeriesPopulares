@@ -16,6 +16,10 @@ public class Fanart implements Parcelable {
     @SerializedName(THUMB)
     private String thumb;
 
+    public String getThumb() {
+        return thumb;
+    }
+
     public Fanart() {
 
     }

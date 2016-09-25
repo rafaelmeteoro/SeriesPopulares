@@ -42,6 +42,22 @@ public class Show implements Parcelable {
     @SerializedName(GENRES)
     private List<String> genres;
 
+    public int getYear() {
+        return year;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public Images getImages() {
+        return images;
+    }
+
     public Show() {
 
     }
