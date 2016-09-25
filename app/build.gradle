@@ -1,20 +1,55 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
+
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
+
     defaultConfig {
         applicationId "br.com.rafael.seriespopulares"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file(KEY_STORE_PATH)
+            storePassword KEY_STORE_PASSWORD
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+            buildConfigField "String", "API_URL", "\"https://api.trakt.tv/\""
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-DEV"
+            buildConfigField "String", "API_URL", "\"https://api.trakt.tv/\""
+        }
+    }
+
+    productFlavors {
+        devLocal {
+            applicationId = "br.com.rafael.seriespopulares.devLocal"
+
+            resValue "string", "app_name", "Series Local"
+        }
+        dev {
+            applicationId = "br.com.rafael.seriespopulares.release"
+
+            resValue "string", "app_name", "Series Populares"
         }
     }
 }
