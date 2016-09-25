@@ -26,23 +26,29 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
     @Override
     public void getShows() {
         checkViewAttached();
+        getMvpView().showProgress();
 
         unsubscribe();
         mSubscription = mDataManager.getShows()
                 .subscribe(new Subscriber<List<Show>>() {
                     @Override
                     public void onCompleted() {
-
+                        getMvpView().hideProgress();
                     }
 
                     @Override
                     public void onError(Throwable e) {
                         Timber.e(e, "Erro ao carregar lista");
+                        getMvpView().hideProgress();
                     }
 
                     @Override
                     public void onNext(List<Show> shows) {
-                        Timber.d("Shows", shows);
+                        if (shows != null && !shows.isEmpty()) {
+                            getMvpView().showShows(shows);
+                        } else {
+                            getMvpView().showEmpty();
+                        }
                     }
                 });
     }
