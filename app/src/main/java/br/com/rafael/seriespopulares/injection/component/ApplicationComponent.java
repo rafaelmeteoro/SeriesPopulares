@@ -6,6 +6,7 @@ import android.content.Context;
 import javax.inject.Singleton;
 
 import br.com.rafael.seriespopulares.SeriesPopularesApplication;
+import br.com.rafael.seriespopulares.data.DataManager;
 import br.com.rafael.seriespopulares.injection.ApplicationContext;
 import br.com.rafael.seriespopulares.injection.module.ApplicationModule;
 import br.com.rafael.seriespopulares.injection.module.NetworkModule;
@@ -28,6 +29,8 @@ public interface ApplicationComponent {
     Context context();
 
     Application application();
+
+    DataManager dataManager();
 
     Retrofit retrofit();
 }
