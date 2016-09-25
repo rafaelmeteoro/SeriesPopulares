@@ -1,4 +1,4 @@
-package br.com.rafael.seriespopulares.ui.series;
+package br.com.rafael.seriespopulares.ui.shows;
 
 import br.com.rafael.seriespopulares.ui.base.MvpView;
 
@@ -6,13 +6,13 @@ import br.com.rafael.seriespopulares.ui.base.MvpView;
  * Created by rafael on 9/25/16.
  **/
 
-public interface SeriesContract {
+public interface ShowsContract {
 
     interface View extends MvpView {
 
     }
 
     interface Presenter {
-        void getSeries();
+        void getShows();
     }
 }

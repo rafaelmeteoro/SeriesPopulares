@@ -5,7 +5,7 @@ import android.content.Context;
 import br.com.rafael.seriespopulares.injection.ActivityContext;
 import br.com.rafael.seriespopulares.injection.PerActivity;
 import br.com.rafael.seriespopulares.injection.module.ActivityModule;
-import br.com.rafael.seriespopulares.ui.series.SeriesActivity;
+import br.com.rafael.seriespopulares.ui.shows.ShowsActivity;
 import dagger.Component;
 import retrofit2.Retrofit;
 
@@ -16,7 +16,7 @@ import retrofit2.Retrofit;
 @Component(dependencies = ApplicationComponent.class, modules = ActivityModule.class)
 public interface ActivityComponent {
 
-    void inject(SeriesActivity seriesActivity);
+    void inject(ShowsActivity showsActivity);
 
     @ActivityContext
     Context context();

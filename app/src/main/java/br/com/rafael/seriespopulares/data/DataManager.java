@@ -5,7 +5,7 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-import br.com.rafael.seriespopulares.data.model.Serie;
+import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.data.operator.WorkerOperator;
 import br.com.rafael.seriespopulares.data.remote.ApiProvider;
 import rx.Observable;
@@ -23,10 +23,10 @@ public class DataManager {
         mApiProvider = apiProvider;
     }
 
-    public Observable<List<Serie>> getSeries() {
+    public Observable<List<Show>> getShows() {
         return mApiProvider
-                .getSeriesPopularesService()
-                .getSeries(1, 10, "images,full")
-                .compose(new WorkerOperator<List<Serie>>());
+                .getPopularShowsService()
+                .getShows(1, 10, "images,full")
+                .compose(new WorkerOperator<List<Show>>());
     }
 }

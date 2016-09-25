@@ -11,7 +11,7 @@ import java.util.List;
  * Created by rafael on 9/25/16.
  **/
 
-public class Serie implements Parcelable {
+public class Show implements Parcelable {
 
     private static final String TITLE = "title";
     private static final String YEAR = "year";
@@ -42,11 +42,11 @@ public class Serie implements Parcelable {
     @SerializedName(GENRES)
     private List<String> genres;
 
-    public Serie() {
+    public Show() {
 
     }
 
-    protected Serie(Parcel in) {
+    protected Show(Parcel in) {
         this.year = in.readInt();
         this.title = in.readString();
         this.overview = in.readString();
@@ -72,15 +72,15 @@ public class Serie implements Parcelable {
         dest.writeStringList(genres);
     }
 
-    public static final Creator<Serie> CREATOR = new Creator<Serie>() {
+    public static final Creator<Show> CREATOR = new Creator<Show>() {
         @Override
-        public Serie createFromParcel(Parcel source) {
-            return new Serie(source);
+        public Show createFromParcel(Parcel source) {
+            return new Show(source);
         }
 
         @Override
-        public Serie[] newArray(int size) {
-            return new Serie[size];
+        public Show[] newArray(int size) {
+            return new Show[size];
         }
     };
 }

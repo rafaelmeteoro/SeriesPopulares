@@ -18,7 +18,7 @@ public class ApiProvider {
         mRetrofit = retrofit;
     }
 
-    public SeriesPopularesService getSeriesPopularesService() {
-        return mRetrofit.create(SeriesPopularesService.class);
+    public PopularShowsService getPopularShowsService() {
+        return mRetrofit.create(PopularShowsService.class);
     }
 }

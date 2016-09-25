@@ -1,11 +1,11 @@
-package br.com.rafael.seriespopulares.ui.series;
+package br.com.rafael.seriespopulares.ui.shows;
 
 import java.util.List;
 
 import javax.inject.Inject;
 
 import br.com.rafael.seriespopulares.data.DataManager;
-import br.com.rafael.seriespopulares.data.model.Serie;
+import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.ui.base.BaseRxPresenter;
 import rx.Subscriber;
 import timber.log.Timber;
@@ -14,22 +14,22 @@ import timber.log.Timber;
  * Created by rafael on 9/25/16.
  **/
 
-public class SeriesPresenter extends BaseRxPresenter<SeriesContract.View> implements SeriesContract.Presenter {
+public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implements ShowsContract.Presenter {
 
     protected DataManager mDataManager;
 
     @Inject
-    public SeriesPresenter(DataManager dataManager) {
+    public ShowsPresenter(DataManager dataManager) {
         mDataManager = dataManager;
     }
 
     @Override
-    public void getSeries() {
+    public void getShows() {
         checkViewAttached();
 
         unsubscribe();
-        mSubscription = mDataManager.getSeries()
-                .subscribe(new Subscriber<List<Serie>>() {
+        mSubscription = mDataManager.getShows()
+                .subscribe(new Subscriber<List<Show>>() {
                     @Override
                     public void onCompleted() {
 
@@ -41,8 +41,8 @@ public class SeriesPresenter extends BaseRxPresenter<SeriesContract.View> implem
                     }
 
                     @Override
-                    public void onNext(List<Serie> series) {
-                        Timber.d("Series", series);
+                    public void onNext(List<Show> shows) {
+                        Timber.d("Shows", shows);
                     }
                 });
     }
