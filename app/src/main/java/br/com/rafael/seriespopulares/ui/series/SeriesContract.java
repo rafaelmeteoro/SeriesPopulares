@@ -13,6 +13,6 @@ public interface SeriesContract {
     }
 
     interface Presenter {
-
+        void getSeries();
     }
 }

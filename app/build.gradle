@@ -30,7 +30,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.releaseConfig
             buildConfigField "String", "API_URL", "\"https://api.trakt.tv/\""
-            buildConfigField "String", "TRACK_API_KEY", "70d03fc7f1f04189e8495464f8d2b2b411394eab533f2409df218ab8c25834b7";
+            buildConfigField "String", "TRACK_API_KEY", "\"70d03fc7f1f04189e8495464f8d2b2b411394eab533f2409df218ab8c25834b7\"";
         }
         debug {
             debuggable true
@@ -38,7 +38,7 @@ android {
             applicationIdSuffix ".debug"
             versionNameSuffix "-DEV"
             buildConfigField "String", "API_URL", "\"https://api.trakt.tv/\""
-            buildConfigField "String", "TRACK_API_KEY", "70d03fc7f1f04189e8495464f8d2b2b411394eab533f2409df218ab8c25834b7";
+            buildConfigField "String", "TRACK_API_KEY", "\"70d03fc7f1f04189e8495464f8d2b2b411394eab533f2409df218ab8c25834b7\"";
         }
     }
 

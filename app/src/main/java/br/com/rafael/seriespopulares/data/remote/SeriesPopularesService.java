@@ -5,6 +5,7 @@ import java.util.List;
 import br.com.rafael.seriespopulares.data.model.Serie;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
+import retrofit2.http.Query;
 import rx.Observable;
 
 /**
@@ -15,8 +16,8 @@ public interface SeriesPopularesService {
 
     @GET("shows/popular")
     Observable<List<Serie>> getSeries(
-            @Path("page") int page,
-            @Path("limit") int limit,
-            @Path("extended") String extended
+            @Query("page") int page,
+            @Query("limit") int limit,
+            @Query("extended") String extended
     );
 }

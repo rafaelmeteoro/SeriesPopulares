@@ -23,6 +23,8 @@ public class SeriesActivity extends BaseMvpActivity implements SeriesContract.Vi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mPresenter.attachView(this);
+
+        mPresenter.getSeries();
     }
 
     @Override
