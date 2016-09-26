@@ -5,7 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
@@ -18,6 +21,7 @@ import br.com.rafael.seriespopulares.injection.component.ActivityComponent;
 import br.com.rafael.seriespopulares.ui.base.BaseMvpActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by rafael on 9/25/16.
@@ -31,22 +35,31 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
     protected Toolbar mToolbar;
 
     @Bind(R.id.iv_banner)
-    protected ImageView ivBanner;
+    protected ImageView mIvBanner;
 
     @Bind(R.id.tv_year)
-    protected TextView tvYear;
+    protected TextView mTvYear;
 
     @Bind(R.id.tv_rating)
-    protected TextView tvRating;
+    protected TextView mTvRating;
 
     @Bind(R.id.tv_sinopse)
-    protected TextView tvSinopse;
+    protected TextView mTvSinopse;
 
     @Bind(R.id.tv_generos)
-    protected TextView tvGeneros;
+    protected TextView mTvGeneros;
 
     @Bind(R.id.tv_episodes)
-    protected TextView tvEpisodes;
+    protected TextView mTvEpisodes;
+
+    @Bind(R.id.content_view)
+    protected LinearLayout mContentView;
+
+    @Bind(R.id.loading_view)
+    protected ProgressBar mLoadingView;
+
+    @Bind(R.id.error_view)
+    protected TextView mErrorView;
 
     private Show mShow;
 
@@ -67,10 +80,16 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
         mPresenter.attachView(this);
 
         setSupportActionBar(mToolbar);
+        setupViews();
 
         mShow = getIntent().getParcelableExtra(EXTRA_SHOW);
         mPresenter.setInfoShow(mShow);
         mPresenter.getSeasons(mShow);
+    }
+
+    private void setupViews() {
+        mContentView.setVisibility(View.GONE);
+        mErrorView.setVisibility(View.GONE);
     }
 
     @Override
@@ -84,6 +103,12 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
         activityComponent.inject(this);
     }
 
+    @OnClick(R.id.error_view)
+    public void onReloadClick() {
+        setupViews();
+        mPresenter.getSeasons(mShow);
+    }
+
     @Override
     public void setTitle(String title) {
         if (getSupportActionBar() != null) {
@@ -95,31 +120,58 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
     public void setBanner(String banner) {
         Picasso.with(this)
                 .load(banner)
-                .into(ivBanner);
+                .into(mIvBanner);
     }
 
     @Override
     public void setYear(int year) {
-        tvYear.setText(getString(R.string.layout_item_show_year_format, year));
+        mTvYear.setText(getString(R.string.layout_item_show_year_format, year));
     }
 
     @Override
     public void setRating(double rating) {
-        tvRating.setText(getString(R.string.layout_item_show_rating_format, rating));
+        mTvRating.setText(getString(R.string.layout_item_show_rating_format, rating));
     }
 
     @Override
     public void setSinopse(String sinopse) {
-        tvSinopse.setText(sinopse);
+        mTvSinopse.setText(sinopse);
     }
 
     @Override
     public void setGenres(String genres) {
-        tvGeneros.setText(genres);
+        mTvGeneros.setText(genres);
     }
 
     @Override
     public void setEpisodes(String episodes) {
-        tvEpisodes.setText(episodes);
+        mTvEpisodes.setText(episodes);
+        mContentView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void showProgress() {
+        mLoadingView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void hideprogress() {
+        mLoadingView.setVisibility(View.GONE);
+    }
+
+    @Override
+    public void showEmpty() {
+        mContentView.setVisibility(View.VISIBLE);
+        mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_empty_glass_gray, 0, 0);
+        mErrorView.setText(R.string.view_empty_text);
+        mErrorView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void showError() {
+        mContentView.setVisibility(View.VISIBLE);
+        mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_sentiment_very_dissatisfied_gray, 0, 0);
+        mErrorView.setText(R.string.view_erro_text);
+        mErrorView.setVisibility(View.VISIBLE);
     }
 }

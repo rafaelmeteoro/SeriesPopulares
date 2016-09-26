@@ -40,7 +40,11 @@ public class DataManager {
                 .map(new Func1<List<Season>, String>() {
                     @Override
                     public String call(List<Season> seasons) {
-                        return formatSeasons(seasons);
+                        if (seasons == null || seasons.isEmpty()) {
+                            return null;
+                        } else {
+                            return formatSeasons(seasons);
+                        }
                     }
                 })
                 .compose(new WorkerOperator<String>());

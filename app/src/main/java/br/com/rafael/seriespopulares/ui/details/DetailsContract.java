@@ -23,6 +23,14 @@ public interface DetailsContract {
         void setGenres(String genres);
 
         void setEpisodes(String episodes);
+
+        void showProgress();
+
+        void hideprogress();
+
+        void showEmpty();
+
+        void showError();
     }
 
     interface Presenter {

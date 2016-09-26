@@ -68,7 +68,16 @@
             android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
             android:textStyle="italic" />
 
-        <TextView
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/merge_list_episodes" />
+
+        </FrameLayout>
+
+        <!--<TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -80,7 +89,7 @@
             android:id="@+id/tv_episodes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/content_details_scrolling_distance_top" />
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top" />-->
 
     </LinearLayout>
 

@@ -1,7 +1,5 @@
 package br.com.rafael.seriespopulares.ui.details;
 
-import java.util.List;
-
 import javax.inject.Inject;
 
 import br.com.rafael.seriespopulares.data.DataManager;
@@ -38,6 +36,7 @@ public class DetailsPresenter extends BaseRxPresenter<DetailsContract.View> impl
     @Override
     public void getSeasons(Show show) {
         checkViewAttached();
+        getMvpView().showProgress();
         int id = show.getIds().getTrakt();
 
         unsubscribe();
@@ -45,17 +44,22 @@ public class DetailsPresenter extends BaseRxPresenter<DetailsContract.View> impl
                 .subscribe(new Subscriber<String>() {
                     @Override
                     public void onCompleted() {
-
+                        getMvpView().hideprogress();
                     }
 
                     @Override
                     public void onError(Throwable e) {
-
+                        getMvpView().hideprogress();
+                        getMvpView().showError();
                     }
 
                     @Override
                     public void onNext(String value) {
-                        getMvpView().setEpisodes(value);
+                        if (value == null) {
+                            getMvpView().showEmpty();
+                        } else {
+                            getMvpView().setEpisodes(value);
+                        }
                     }
                 });
     }
