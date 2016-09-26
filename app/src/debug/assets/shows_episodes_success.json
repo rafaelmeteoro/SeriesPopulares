@@ -1,0 +1,2799 @@
+[
+  {
+    "number": 0,
+    "ids": {
+      "trakt": 4079,
+      "tvdb": 28046,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 0,
+        "number": 1,
+        "title": "Unaired Pilot",
+        "ids": {
+          "trakt": 75366,
+          "tvdb": 2321301,
+          "imdb": null,
+          "tmdb": 64739,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 0,
+        "number": 2,
+        "title": "Access All Areas",
+        "ids": {
+          "trakt": 75367,
+          "tvdb": 4302970,
+          "imdb": null,
+          "tmdb": 64740,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 0,
+        "number": 3,
+        "title": "It All Started With A Big Bang",
+        "ids": {
+          "trakt": 75368,
+          "tvdb": 4302972,
+          "imdb": null,
+          "tmdb": 64646,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 0,
+        "number": 4,
+        "title": "Comic Con 2015 Writers Panel",
+        "ids": {
+          "trakt": 2053016,
+          "tvdb": 5399318,
+          "imdb": null,
+          "tmdb": 1110942,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 0,
+        "number": 5,
+        "title": "Comic-Con 2016 Writers Panel",
+        "ids": {
+          "trakt": 2336744,
+          "tvdb": 5742381,
+          "imdb": null,
+          "tmdb": 0,
+          "tvrage": null
+        }
+      }
+    ]
+  },
+  {
+    "number": 1,
+    "ids": {
+      "trakt": 4080,
+      "tvdb": 28047,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 1,
+        "number": 1,
+        "title": "Pilot",
+        "ids": {
+          "trakt": 75369,
+          "tvdb": 332484,
+          "imdb": "tt0775431",
+          "tmdb": 64766,
+          "tvrage": 550436
+        }
+      },
+      {
+        "season": 1,
+        "number": 2,
+        "title": "The Big Bran Hypothesis",
+        "ids": {
+          "trakt": 75370,
+          "tvdb": 337065,
+          "imdb": "tt1091289",
+          "tmdb": 64777,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 1,
+        "number": 3,
+        "title": "The Fuzzy Boots Corollary",
+        "ids": {
+          "trakt": 75371,
+          "tvdb": 337249,
+          "imdb": "tt1091290",
+          "tmdb": 64765,
+          "tvrage": 604480
+        }
+      },
+      {
+        "season": 1,
+        "number": 4,
+        "title": "The Luminous Fish Effect",
+        "ids": {
+          "trakt": 75372,
+          "tvdb": 338488,
+          "imdb": "tt1091291",
+          "tmdb": 64762,
+          "tvrage": 607807
+        }
+      },
+      {
+        "season": 1,
+        "number": 5,
+        "title": "The Hamburger Postulate",
+        "ids": {
+          "trakt": 75373,
+          "tvdb": 339077,
+          "imdb": "tt1091292",
+          "tmdb": 64763,
+          "tvrage": 614283
+        }
+      },
+      {
+        "season": 1,
+        "number": 6,
+        "title": "The Middle Earth Paradigm",
+        "ids": {
+          "trakt": 75374,
+          "tvdb": 339895,
+          "imdb": "tt1091293",
+          "tmdb": 64764,
+          "tvrage": 618205
+        }
+      },
+      {
+        "season": 1,
+        "number": 7,
+        "title": "The Dumpling Paradox",
+        "ids": {
+          "trakt": 75375,
+          "tvdb": 341166,
+          "imdb": "tt1136041",
+          "tmdb": 64767,
+          "tvrage": 618419
+        }
+      },
+      {
+        "season": 1,
+        "number": 8,
+        "title": "The Grasshopper Experiment",
+        "ids": {
+          "trakt": 75376,
+          "tvdb": 341996,
+          "imdb": "tt1127389",
+          "tmdb": 64769,
+          "tvrage": 622781
+        }
+      },
+      {
+        "season": 1,
+        "number": 9,
+        "title": "The Cooper-Hofstadter Polarization",
+        "ids": {
+          "trakt": 75377,
+          "tvdb": 342790,
+          "imdb": "tt1127390",
+          "tmdb": 64770,
+          "tvrage": 624751
+        }
+      },
+      {
+        "season": 1,
+        "number": 10,
+        "title": "The Loobenfeld Decay",
+        "ids": {
+          "trakt": 75378,
+          "tvdb": 356711,
+          "imdb": "tt1127384",
+          "tmdb": 64650,
+          "tvrage": 641156
+        }
+      },
+      {
+        "season": 1,
+        "number": 11,
+        "title": "The Pancake Batter Anomaly",
+        "ids": {
+          "trakt": 75379,
+          "tvdb": 358455,
+          "imdb": "tt1127385",
+          "tmdb": 64768,
+          "tvrage": 641157
+        }
+      },
+      {
+        "season": 1,
+        "number": 12,
+        "title": "The Jerusalem Duality",
+        "ids": {
+          "trakt": 75380,
+          "tvdb": 360371,
+          "imdb": "tt1127386",
+          "tmdb": 64774,
+          "tvrage": 641158
+        }
+      },
+      {
+        "season": 1,
+        "number": 13,
+        "title": "The Bat Jar Conjecture",
+        "ids": {
+          "trakt": 75381,
+          "tvdb": 363199,
+          "imdb": "tt1127387",
+          "tmdb": 64775,
+          "tvrage": 641159
+        }
+      },
+      {
+        "season": 1,
+        "number": 14,
+        "title": "The Nerdvana Annihilation",
+        "ids": {
+          "trakt": 75382,
+          "tvdb": 364198,
+          "imdb": "tt1127905",
+          "tmdb": 64773,
+          "tvrage": 641160
+        }
+      },
+      {
+        "season": 1,
+        "number": 15,
+        "title": "The Pork Chop Indeterminacy",
+        "ids": {
+          "trakt": 75383,
+          "tvdb": 365914,
+          "imdb": "tt1127906",
+          "tmdb": 64771,
+          "tvrage": 641161
+        }
+      },
+      {
+        "season": 1,
+        "number": 16,
+        "title": "The Peanut Reaction",
+        "ids": {
+          "trakt": 75384,
+          "tvdb": 365967,
+          "imdb": "tt1127907",
+          "tmdb": 64772,
+          "tvrage": 641162
+        }
+      },
+      {
+        "season": 1,
+        "number": 17,
+        "title": "The Tangerine Factor",
+        "ids": {
+          "trakt": 75385,
+          "tvdb": 367404,
+          "imdb": "tt1127908",
+          "tmdb": 64776,
+          "tvrage": 641163
+        }
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "ids": {
+      "trakt": 4081,
+      "tvdb": 35155,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 2,
+        "number": 1,
+        "title": "The Bad Fish Paradigm",
+        "ids": {
+          "trakt": 75386,
+          "tvdb": 387721,
+          "imdb": "tt1256599",
+          "tmdb": 64651,
+          "tvrage": 676620
+        }
+      },
+      {
+        "season": 2,
+        "number": 2,
+        "title": "The Codpiece Topology",
+        "ids": {
+          "trakt": 75387,
+          "tvdb": 389025,
+          "imdb": "tt1256030",
+          "tmdb": 64652,
+          "tvrage": 714401
+        }
+      },
+      {
+        "season": 2,
+        "number": 3,
+        "title": "The Barbarian Sublimation",
+        "ids": {
+          "trakt": 75388,
+          "tvdb": 391204,
+          "imdb": "tt1256034",
+          "tmdb": 64653,
+          "tvrage": 719412
+        }
+      },
+      {
+        "season": 2,
+        "number": 4,
+        "title": "The Griffin Equivalency",
+        "ids": {
+          "trakt": 75389,
+          "tvdb": 393953,
+          "imdb": "tt1256035",
+          "tmdb": 64654,
+          "tvrage": 719733
+        }
+      },
+      {
+        "season": 2,
+        "number": 5,
+        "title": "The Euclid Alternative",
+        "ids": {
+          "trakt": 75390,
+          "tvdb": 396576,
+          "imdb": "tt1256036",
+          "tmdb": 64655,
+          "tvrage": 723034
+        }
+      },
+      {
+        "season": 2,
+        "number": 6,
+        "title": "The Cooper-Nowitzki Theorem",
+        "ids": {
+          "trakt": 75391,
+          "tvdb": 401078,
+          "imdb": "tt1256037",
+          "tmdb": 64656,
+          "tvrage": 728602
+        }
+      },
+      {
+        "season": 2,
+        "number": 7,
+        "title": "The Panty Piñata Polarization",
+        "ids": {
+          "trakt": 75392,
+          "tvdb": 402940,
+          "imdb": "tt1256038",
+          "tmdb": 64657,
+          "tvrage": 732185
+        }
+      },
+      {
+        "season": 2,
+        "number": 8,
+        "title": "The Lizard-Spock Expansion",
+        "ids": {
+          "trakt": 75393,
+          "tvdb": 405395,
+          "imdb": "tt1256039",
+          "tmdb": 64658,
+          "tvrage": 734185
+        }
+      },
+      {
+        "season": 2,
+        "number": 9,
+        "title": "The White Asparagus Triangulation",
+        "ids": {
+          "trakt": 75394,
+          "tvdb": 406628,
+          "imdb": "tt1256040",
+          "tmdb": 64659,
+          "tvrage": 735929
+        }
+      },
+      {
+        "season": 2,
+        "number": 10,
+        "title": "The Vartabedian Conundrum",
+        "ids": {
+          "trakt": 75395,
+          "tvdb": 410324,
+          "imdb": "tt1256020",
+          "tmdb": 64660,
+          "tvrage": 745602
+        }
+      },
+      {
+        "season": 2,
+        "number": 11,
+        "title": "The Bath Item Gift Hypothesis",
+        "ids": {
+          "trakt": 75396,
+          "tvdb": 413490,
+          "imdb": "tt1256021",
+          "tmdb": 64661,
+          "tvrage": 750933
+        }
+      },
+      {
+        "season": 2,
+        "number": 12,
+        "title": "The Killer Robot Instability",
+        "ids": {
+          "trakt": 75397,
+          "tvdb": 420058,
+          "imdb": "tt1256022",
+          "tmdb": 64662,
+          "tvrage": 760062
+        }
+      },
+      {
+        "season": 2,
+        "number": 13,
+        "title": "The Friendship Algorithm",
+        "ids": {
+          "trakt": 75398,
+          "tvdb": 426681,
+          "imdb": "tt1256023",
+          "tmdb": 64663,
+          "tvrage": 769602
+        }
+      },
+      {
+        "season": 2,
+        "number": 14,
+        "title": "The Financial Permeability",
+        "ids": {
+          "trakt": 75399,
+          "tvdb": 428394,
+          "imdb": "tt1256024",
+          "tmdb": 64664,
+          "tvrage": 771773
+        }
+      },
+      {
+        "season": 2,
+        "number": 15,
+        "title": "The Maternal Capacitance",
+        "ids": {
+          "trakt": 75400,
+          "tvdb": 431000,
+          "imdb": "tt1256025",
+          "tmdb": 64665,
+          "tvrage": 776856
+        }
+      },
+      {
+        "season": 2,
+        "number": 16,
+        "title": "The Cushion Saturation",
+        "ids": {
+          "trakt": 75401,
+          "tvdb": 439079,
+          "imdb": "tt1256026",
+          "tmdb": 64666,
+          "tvrage": 781628
+        }
+      },
+      {
+        "season": 2,
+        "number": 17,
+        "title": "The Terminator Decoupling",
+        "ids": {
+          "trakt": 75402,
+          "tvdb": 439587,
+          "imdb": "tt1256027",
+          "tmdb": 64667,
+          "tvrage": 782398
+        }
+      },
+      {
+        "season": 2,
+        "number": 18,
+        "title": "The Work Song Nanocluster",
+        "ids": {
+          "trakt": 75403,
+          "tvdb": 443622,
+          "imdb": "tt1256028",
+          "tmdb": 64668,
+          "tvrage": 785493
+        }
+      },
+      {
+        "season": 2,
+        "number": 19,
+        "title": "The Dead Hooker Juxtaposition",
+        "ids": {
+          "trakt": 75404,
+          "tvdb": 461831,
+          "imdb": "tt1256029",
+          "tmdb": 64669,
+          "tvrage": 786506
+        }
+      },
+      {
+        "season": 2,
+        "number": 20,
+        "title": "The Hofstadter Isotope",
+        "ids": {
+          "trakt": 75405,
+          "tvdb": 461841,
+          "imdb": "tt1256031",
+          "tmdb": 64670,
+          "tvrage": 1064794674
+        }
+      },
+      {
+        "season": 2,
+        "number": 21,
+        "title": "The Vegas Renormalization",
+        "ids": {
+          "trakt": 75406,
+          "tvdb": 588971,
+          "imdb": "tt1256032",
+          "tmdb": 64671,
+          "tvrage": 1064801333
+        }
+      },
+      {
+        "season": 2,
+        "number": 22,
+        "title": "The Classified Materials Turbulence",
+        "ids": {
+          "trakt": 75407,
+          "tvdb": 588981,
+          "imdb": "tt1256033",
+          "tmdb": 64672,
+          "tvrage": 1064801331
+        }
+      },
+      {
+        "season": 2,
+        "number": 23,
+        "title": "The Monopolar Expedition",
+        "ids": {
+          "trakt": 75408,
+          "tvdb": 588991,
+          "imdb": "tt1426233",
+          "tmdb": 64673,
+          "tvrage": 1064801332
+        }
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "ids": {
+      "trakt": 4082,
+      "tvdb": 82831,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 3,
+        "number": 1,
+        "title": "The Electric Can Opener Fluctuation",
+        "ids": {
+          "trakt": 75409,
+          "tvdb": 795681,
+          "imdb": "tt1487706",
+          "tmdb": 64674,
+          "tvrage": 1064815621
+        }
+      },
+      {
+        "season": 3,
+        "number": 2,
+        "title": "The Jiminy Conjecture",
+        "ids": {
+          "trakt": 75410,
+          "tvdb": 1046141,
+          "imdb": "tt1495238",
+          "tmdb": 64675,
+          "tvrage": 1064843427
+        }
+      },
+      {
+        "season": 3,
+        "number": 3,
+        "title": "The Gothowitz Deviation",
+        "ids": {
+          "trakt": 75411,
+          "tvdb": 1101931,
+          "imdb": "tt1494210",
+          "tmdb": 64676,
+          "tvrage": 1064843428
+        }
+      },
+      {
+        "season": 3,
+        "number": 4,
+        "title": "The Pirate Solution",
+        "ids": {
+          "trakt": 75412,
+          "tvdb": 1123661,
+          "imdb": "tt1523181",
+          "tmdb": 64677,
+          "tvrage": 1064846782
+        }
+      },
+      {
+        "season": 3,
+        "number": 5,
+        "title": "The Creepy Candy Coating Corollary",
+        "ids": {
+          "trakt": 75413,
+          "tvdb": 1175941,
+          "imdb": "tt1528188",
+          "tmdb": 64678,
+          "tvrage": 1064846783
+        }
+      },
+      {
+        "season": 3,
+        "number": 6,
+        "title": "The Cornhusker Vortex",
+        "ids": {
+          "trakt": 75414,
+          "tvdb": 1175951,
+          "imdb": "tt1523180",
+          "tmdb": 64679,
+          "tvrage": 1064852479
+        }
+      },
+      {
+        "season": 3,
+        "number": 7,
+        "title": "The Guitarist Amplification",
+        "ids": {
+          "trakt": 75415,
+          "tvdb": 1205511,
+          "imdb": "tt1535334",
+          "tmdb": 64680,
+          "tvrage": 1064864485
+        }
+      },
+      {
+        "season": 3,
+        "number": 8,
+        "title": "The Adhesive Duck Deficiency",
+        "ids": {
+          "trakt": 75416,
+          "tvdb": 1236491,
+          "imdb": "tt1536922",
+          "tmdb": 64681,
+          "tvrage": 1064852481
+        }
+      },
+      {
+        "season": 3,
+        "number": 9,
+        "title": "The Vengeance Formulation",
+        "ids": {
+          "trakt": 75417,
+          "tvdb": 1269601,
+          "imdb": "tt1544819",
+          "tmdb": 64682,
+          "tvrage": 1064852482
+        }
+      },
+      {
+        "season": 3,
+        "number": 10,
+        "title": "The Gorilla Experiment",
+        "ids": {
+          "trakt": 75418,
+          "tvdb": 1370211,
+          "imdb": "tt1558529",
+          "tmdb": 64683,
+          "tvrage": 1064870908
+        }
+      },
+      {
+        "season": 3,
+        "number": 11,
+        "title": "The Maternal Congruence",
+        "ids": {
+          "trakt": 75419,
+          "tvdb": 1309961,
+          "imdb": "tt1558530",
+          "tmdb": 64684,
+          "tvrage": 1064870909
+        }
+      },
+      {
+        "season": 3,
+        "number": 12,
+        "title": "The Psychic Vortex",
+        "ids": {
+          "trakt": 75420,
+          "tvdb": 1313511,
+          "imdb": "tt1567073",
+          "tmdb": 64685,
+          "tvrage": 1064883411
+        }
+      },
+      {
+        "season": 3,
+        "number": 13,
+        "title": "The Bozeman Reaction",
+        "ids": {
+          "trakt": 75421,
+          "tvdb": 1418721,
+          "imdb": "tt1570312",
+          "tmdb": 64691,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 14,
+        "title": "The Einstein Approximation",
+        "ids": {
+          "trakt": 75422,
+          "tvdb": 1585301,
+          "imdb": "tt1588684",
+          "tmdb": 64686,
+          "tvrage": 1064884086
+        }
+      },
+      {
+        "season": 3,
+        "number": 15,
+        "title": "The Large Hadron Collision",
+        "ids": {
+          "trakt": 75423,
+          "tvdb": 1611971,
+          "imdb": "tt1589887",
+          "tmdb": 64687,
+          "tvrage": 1064886961
+        }
+      },
+      {
+        "season": 3,
+        "number": 16,
+        "title": "The Excelsior Acquisition",
+        "ids": {
+          "trakt": 75424,
+          "tvdb": 1670231,
+          "imdb": "tt1592080",
+          "tmdb": 64692,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 17,
+        "title": "The Precious Fragmentation",
+        "ids": {
+          "trakt": 75425,
+          "tvdb": 1765801,
+          "imdb": "tt1607974",
+          "tmdb": 64693,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 18,
+        "title": "The Pants Alternative",
+        "ids": {
+          "trakt": 75426,
+          "tvdb": 1801741,
+          "imdb": "tt1609715",
+          "tmdb": 64695,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 19,
+        "title": "The Wheaton Recurrence",
+        "ids": {
+          "trakt": 75427,
+          "tvdb": 1766111,
+          "imdb": "tt1609410",
+          "tmdb": 64688,
+          "tvrage": 1064905311
+        }
+      },
+      {
+        "season": 3,
+        "number": 20,
+        "title": "The Spaghetti Catalyst",
+        "ids": {
+          "trakt": 75428,
+          "tvdb": 1975621,
+          "imdb": "tt1628617",
+          "tmdb": 64694,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 21,
+        "title": "The Plimpton Stimulation",
+        "ids": {
+          "trakt": 75429,
+          "tvdb": 2063651,
+          "imdb": "tt1648755",
+          "tmdb": 64696,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 3,
+        "number": 22,
+        "title": "The Staircase Implementation",
+        "ids": {
+          "trakt": 75430,
+          "tvdb": 2063661,
+          "imdb": "tt1648756",
+          "tmdb": 64689,
+          "tvrage": 1064919092
+        }
+      },
+      {
+        "season": 3,
+        "number": 23,
+        "title": "The Lunar Excitation",
+        "ids": {
+          "trakt": 75431,
+          "tvdb": 2099491,
+          "imdb": "tt1627740",
+          "tmdb": 64690,
+          "tvrage": 1064922801
+        }
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "ids": {
+      "trakt": 4083,
+      "tvdb": 261421,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 4,
+        "number": 1,
+        "title": "The Robotic Manipulation",
+        "ids": {
+          "trakt": 75432,
+          "tvdb": 2405541,
+          "imdb": "tt1632224",
+          "tmdb": 64697,
+          "tvrage": 1064940776
+        }
+      },
+      {
+        "season": 4,
+        "number": 2,
+        "title": "The Cruciferous Vegetable Amplification",
+        "ids": {
+          "trakt": 75433,
+          "tvdb": 2813551,
+          "imdb": "tt1632235",
+          "tmdb": 64698,
+          "tvrage": 1064975046
+        }
+      },
+      {
+        "season": 4,
+        "number": 3,
+        "title": "The Zazzy Substitution",
+        "ids": {
+          "trakt": 75434,
+          "tvdb": 2828801,
+          "imdb": "tt1632240",
+          "tmdb": 64699,
+          "tvrage": 1064978266
+        }
+      },
+      {
+        "season": 4,
+        "number": 4,
+        "title": "The Hot Troll Deviation",
+        "ids": {
+          "trakt": 75435,
+          "tvdb": 2828811,
+          "imdb": "tt1632241",
+          "tmdb": 64700,
+          "tvrage": 1064978267
+        }
+      },
+      {
+        "season": 4,
+        "number": 5,
+        "title": "The Desperation Emanation",
+        "ids": {
+          "trakt": 75436,
+          "tvdb": 2903361,
+          "imdb": "tt1632242",
+          "tmdb": 64701,
+          "tvrage": 1064984545
+        }
+      },
+      {
+        "season": 4,
+        "number": 6,
+        "title": "The Irish Pub Formulation",
+        "ids": {
+          "trakt": 75437,
+          "tvdb": 2969761,
+          "imdb": "tt1632243",
+          "tmdb": 64702,
+          "tvrage": 1064985563
+        }
+      },
+      {
+        "season": 4,
+        "number": 7,
+        "title": "The Apology Insufficiency",
+        "ids": {
+          "trakt": 75438,
+          "tvdb": 2995711,
+          "imdb": "tt1632244",
+          "tmdb": 64703,
+          "tvrage": 1064987248
+        }
+      },
+      {
+        "season": 4,
+        "number": 8,
+        "title": "The 21-Second Excitation",
+        "ids": {
+          "trakt": 75439,
+          "tvdb": 3066471,
+          "imdb": "tt1632245",
+          "tmdb": 64704,
+          "tvrage": 1064988792
+        }
+      },
+      {
+        "season": 4,
+        "number": 9,
+        "title": "The Boyfriend Complexity",
+        "ids": {
+          "trakt": 75440,
+          "tvdb": 3110921,
+          "imdb": "tt1632246",
+          "tmdb": 64705,
+          "tvrage": 1064990329
+        }
+      },
+      {
+        "season": 4,
+        "number": 10,
+        "title": "The Alien Parasite Hypothesis",
+        "ids": {
+          "trakt": 75441,
+          "tvdb": 3168381,
+          "imdb": "tt1632225",
+          "tmdb": 64706,
+          "tvrage": 1064995085
+        }
+      },
+      {
+        "season": 4,
+        "number": 11,
+        "title": "The Justice League Recombination",
+        "ids": {
+          "trakt": 75442,
+          "tvdb": 3198011,
+          "imdb": "tt1632226",
+          "tmdb": 64707,
+          "tvrage": 1064995651
+        }
+      },
+      {
+        "season": 4,
+        "number": 12,
+        "title": "The Bus Pants Utilization",
+        "ids": {
+          "trakt": 75443,
+          "tvdb": 3270941,
+          "imdb": "tt1632227",
+          "tmdb": 64708,
+          "tvrage": 1065003228
+        }
+      },
+      {
+        "season": 4,
+        "number": 13,
+        "title": "The Love Car Displacement",
+        "ids": {
+          "trakt": 75444,
+          "tvdb": 3392921,
+          "imdb": "tt1632228",
+          "tmdb": 64709,
+          "tvrage": 1065006074
+        }
+      },
+      {
+        "season": 4,
+        "number": 14,
+        "title": "The Thespian Catalyst",
+        "ids": {
+          "trakt": 75445,
+          "tvdb": 3473151,
+          "imdb": "tt1632229",
+          "tmdb": 64710,
+          "tvrage": 1065008579
+        }
+      },
+      {
+        "season": 4,
+        "number": 15,
+        "title": "The Benefactor Factor",
+        "ids": {
+          "trakt": 75446,
+          "tvdb": 3509831,
+          "imdb": "tt1632230",
+          "tmdb": 64711,
+          "tvrage": 1065012963
+        }
+      },
+      {
+        "season": 4,
+        "number": 16,
+        "title": "The Cohabitation Formulation",
+        "ids": {
+          "trakt": 75447,
+          "tvdb": 3616341,
+          "imdb": "tt1632231",
+          "tmdb": 64712,
+          "tvrage": 1065013265
+        }
+      },
+      {
+        "season": 4,
+        "number": 17,
+        "title": "The Toast Derivation",
+        "ids": {
+          "trakt": 75448,
+          "tvdb": 3682891,
+          "imdb": "tt1632232",
+          "tmdb": 64713,
+          "tvrage": 1065016646
+        }
+      },
+      {
+        "season": 4,
+        "number": 18,
+        "title": "The Prestidigitation Approximation",
+        "ids": {
+          "trakt": 75449,
+          "tvdb": 3770211,
+          "imdb": "tt1632233",
+          "tmdb": 64714,
+          "tvrage": 1065018166
+        }
+      },
+      {
+        "season": 4,
+        "number": 19,
+        "title": "The Zarnecki Incursion",
+        "ids": {
+          "trakt": 75450,
+          "tvdb": 3892111,
+          "imdb": "tt1632234",
+          "tmdb": 64640,
+          "tvrage": 1065022166
+        }
+      },
+      {
+        "season": 4,
+        "number": 20,
+        "title": "The Herb Garden Germination",
+        "ids": {
+          "trakt": 75451,
+          "tvdb": 3911231,
+          "imdb": "tt1632236",
+          "tmdb": 64641,
+          "tvrage": 1065023909
+        }
+      },
+      {
+        "season": 4,
+        "number": 21,
+        "title": "The Agreement Dissection",
+        "ids": {
+          "trakt": 75452,
+          "tvdb": 4062871,
+          "imdb": "tt1632237",
+          "tmdb": 64715,
+          "tvrage": 1065029837
+        }
+      },
+      {
+        "season": 4,
+        "number": 22,
+        "title": "The Wildebeest Implementation",
+        "ids": {
+          "trakt": 75453,
+          "tvdb": 4066721,
+          "imdb": "tt1632238",
+          "tmdb": 64643,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 4,
+        "number": 23,
+        "title": "The Engagement Reaction",
+        "ids": {
+          "trakt": 75454,
+          "tvdb": 4066741,
+          "imdb": "tt1632239",
+          "tmdb": 64716,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 4,
+        "number": 24,
+        "title": "The Roommate Transmogrification",
+        "ids": {
+          "trakt": 75455,
+          "tvdb": 4066751,
+          "imdb": "tt1918407",
+          "tmdb": 64642,
+          "tvrage": 0
+        }
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "ids": {
+      "trakt": 4084,
+      "tvdb": 468774,
+      "tmdb": null,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 5,
+        "number": 1,
+        "title": "The Skank Reflex Analysis",
+        "ids": {
+          "trakt": 75456,
+          "tvdb": 4123308,
+          "imdb": "tt1980710",
+          "tmdb": 64719,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 2,
+        "title": "The Infestation Hypothesis",
+        "ids": {
+          "trakt": 75457,
+          "tvdb": 4123309,
+          "imdb": "tt2033019",
+          "tmdb": 64720,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 3,
+        "title": "The Pulled Groin Extrapolation",
+        "ids": {
+          "trakt": 75458,
+          "tvdb": 4170663,
+          "imdb": "tt2057241",
+          "tmdb": 64721,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 4,
+        "title": "The Wiggly Finger Catalyst",
+        "ids": {
+          "trakt": 75459,
+          "tvdb": 4170664,
+          "imdb": "tt2058495",
+          "tmdb": 64724,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 5,
+        "title": "The Russian Rocket Reaction",
+        "ids": {
+          "trakt": 75460,
+          "tvdb": 4175088,
+          "imdb": "tt2063481",
+          "tmdb": 64723,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 6,
+        "title": "The Rhinitis Revelation",
+        "ids": {
+          "trakt": 75461,
+          "tvdb": 4179771,
+          "imdb": "tt2079337",
+          "tmdb": 64722,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 7,
+        "title": "The Good Guy Fluctuation",
+        "ids": {
+          "trakt": 75462,
+          "tvdb": 4188110,
+          "imdb": "tt2082016",
+          "tmdb": 64727,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 8,
+        "title": "The Isolation Permutation",
+        "ids": {
+          "trakt": 75463,
+          "tvdb": 4193651,
+          "imdb": "tt2092310",
+          "tmdb": 64726,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 9,
+        "title": "The Ornithophobia Diffusion",
+        "ids": {
+          "trakt": 75464,
+          "tvdb": 4198747,
+          "imdb": "tt2100287",
+          "tmdb": 64725,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 10,
+        "title": "The Flaming Spittoon Acquisition",
+        "ids": {
+          "trakt": 75465,
+          "tvdb": 4198860,
+          "imdb": "tt2105978",
+          "tmdb": 64718,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 11,
+        "title": "The Speckerman Recurrence",
+        "ids": {
+          "trakt": 75466,
+          "tvdb": 4209982,
+          "imdb": "tt2119890",
+          "tmdb": 64729,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 12,
+        "title": "The Shiny Trinket Maneuver",
+        "ids": {
+          "trakt": 75467,
+          "tvdb": 4219025,
+          "imdb": "tt2136314",
+          "tmdb": 64731,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 13,
+        "title": "The Recombination Hypothesis",
+        "ids": {
+          "trakt": 75468,
+          "tvdb": 4225828,
+          "imdb": "tt2139151",
+          "tmdb": 64730,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 14,
+        "title": "The Beta Test Initiation",
+        "ids": {
+          "trakt": 75469,
+          "tvdb": 4240138,
+          "imdb": "tt2181587",
+          "tmdb": 64728,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 15,
+        "title": "The Friendship Contraction",
+        "ids": {
+          "trakt": 75470,
+          "tvdb": 4245901,
+          "imdb": "tt2192687",
+          "tmdb": 64732,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 16,
+        "title": "The Vacation Solution",
+        "ids": {
+          "trakt": 75471,
+          "tvdb": 4251630,
+          "imdb": "tt2209665",
+          "tmdb": 64734,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 17,
+        "title": "The Rothman Disintegration",
+        "ids": {
+          "trakt": 75472,
+          "tvdb": 4255863,
+          "imdb": "tt2220955",
+          "tmdb": 64733,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 18,
+        "title": "The Werewolf Transformation",
+        "ids": {
+          "trakt": 75473,
+          "tvdb": 4261649,
+          "imdb": "tt2238153",
+          "tmdb": 64735,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 19,
+        "title": "The Weekend Vortex",
+        "ids": {
+          "trakt": 75474,
+          "tvdb": 4272451,
+          "imdb": "tt2275203",
+          "tmdb": 64736,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 20,
+        "title": "The Transporter Malfunction",
+        "ids": {
+          "trakt": 75475,
+          "tvdb": 4278486,
+          "imdb": "tt2275201",
+          "tmdb": 64717,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 21,
+        "title": "The Hawking Excitation",
+        "ids": {
+          "trakt": 75476,
+          "tvdb": 4285345,
+          "imdb": "tt2300453",
+          "tmdb": 64737,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 22,
+        "title": "The Stag Convergence",
+        "ids": {
+          "trakt": 75477,
+          "tvdb": 4293932,
+          "imdb": "tt2332311",
+          "tmdb": 64644,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 23,
+        "title": "The Launch Acceleration",
+        "ids": {
+          "trakt": 75478,
+          "tvdb": 4293934,
+          "imdb": "tt2372043",
+          "tmdb": 64738,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 5,
+        "number": 24,
+        "title": "The Countdown Reflection",
+        "ids": {
+          "trakt": 75479,
+          "tvdb": 4293937,
+          "imdb": "tt2379487",
+          "tmdb": 64645,
+          "tvrage": 0
+        }
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "ids": {
+      "trakt": 4085,
+      "tvdb": 494401,
+      "tmdb": 3737,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 6,
+        "number": 1,
+        "title": "The Date Night Variable",
+        "ids": {
+          "trakt": 75480,
+          "tvdb": 4359108,
+          "imdb": "tt2194640",
+          "tmdb": 64741,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 2,
+        "title": "The Decoupling Fluctuation",
+        "ids": {
+          "trakt": 75481,
+          "tvdb": 4396332,
+          "imdb": "tt2392630",
+          "tmdb": 64742,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 3,
+        "title": "The Higgs Boson Observation",
+        "ids": {
+          "trakt": 75482,
+          "tvdb": 4396333,
+          "imdb": "tt2378184",
+          "tmdb": 64647,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 4,
+        "title": "The Re-Entry Minimization",
+        "ids": {
+          "trakt": 75483,
+          "tvdb": 4396334,
+          "imdb": "tt2411550",
+          "tmdb": 64743,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 5,
+        "title": "The Holographic Excitation",
+        "ids": {
+          "trakt": 75484,
+          "tvdb": 4408722,
+          "imdb": "tt2411582",
+          "tmdb": 64744,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 6,
+        "title": "The Extract Obliteration",
+        "ids": {
+          "trakt": 75485,
+          "tvdb": 4413988,
+          "imdb": "tt2450064",
+          "tmdb": 64746,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 7,
+        "title": "The Habitation Configuration",
+        "ids": {
+          "trakt": 75486,
+          "tvdb": 4413989,
+          "imdb": "tt2462410",
+          "tmdb": 64745,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 8,
+        "title": "The 43 Peculiarity",
+        "ids": {
+          "trakt": 75487,
+          "tvdb": 4429401,
+          "imdb": "tt2502436",
+          "tmdb": 64748,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 9,
+        "title": "The Parking Spot Escalation",
+        "ids": {
+          "trakt": 75488,
+          "tvdb": 4429402,
+          "imdb": "tt2505340",
+          "tmdb": 64749,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 10,
+        "title": "The Fish Guts Displacement",
+        "ids": {
+          "trakt": 75489,
+          "tvdb": 4437045,
+          "imdb": "tt2523744",
+          "tmdb": 64747,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 11,
+        "title": "The Santa Simulation",
+        "ids": {
+          "trakt": 75490,
+          "tvdb": 4439082,
+          "imdb": "tt2559784",
+          "tmdb": 64750,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 12,
+        "title": "The Egg Salad Equivalency",
+        "ids": {
+          "trakt": 75491,
+          "tvdb": 4449180,
+          "imdb": "tt2571320",
+          "tmdb": 64751,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 13,
+        "title": "The Bakersfield Expedition",
+        "ids": {
+          "trakt": 75492,
+          "tvdb": 4453065,
+          "imdb": "tt2582488",
+          "tmdb": 64752,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 14,
+        "title": "The Cooper/Kripke Inversion",
+        "ids": {
+          "trakt": 75493,
+          "tvdb": 4453066,
+          "imdb": "tt2636834",
+          "tmdb": 64753,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 15,
+        "title": "The Spoiler Alert Segmentation",
+        "ids": {
+          "trakt": 75494,
+          "tvdb": 4453067,
+          "imdb": "tt2633894",
+          "tmdb": 64754,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 16,
+        "title": "The Tangible Affection Proof",
+        "ids": {
+          "trakt": 75495,
+          "tvdb": 4485780,
+          "imdb": "tt2668846",
+          "tmdb": 64648,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 17,
+        "title": "The Monster Isolation",
+        "ids": {
+          "trakt": 75496,
+          "tvdb": 4496358,
+          "imdb": "tt2697398",
+          "tmdb": 64755,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 18,
+        "title": "The Contractual Obligation Implementation",
+        "ids": {
+          "trakt": 75497,
+          "tvdb": 4498291,
+          "imdb": "tt2708314",
+          "tmdb": 64649,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 19,
+        "title": "The Closet Reconfiguration",
+        "ids": {
+          "trakt": 75498,
+          "tvdb": 4513651,
+          "imdb": "tt2739286",
+          "tmdb": 64757,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 20,
+        "title": "The Tenure Turbulence",
+        "ids": {
+          "trakt": 75499,
+          "tvdb": 4513973,
+          "imdb": "tt2784494",
+          "tmdb": 64756,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 21,
+        "title": "The Closure Alternative",
+        "ids": {
+          "trakt": 75500,
+          "tvdb": 4516557,
+          "imdb": "tt2833366",
+          "tmdb": 64758,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 22,
+        "title": "The Proton Resurgence",
+        "ids": {
+          "trakt": 75501,
+          "tvdb": 4516558,
+          "imdb": "tt2833352",
+          "tmdb": 64761,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 23,
+        "title": "The Love Spell Potential",
+        "ids": {
+          "trakt": 75502,
+          "tvdb": 4516559,
+          "imdb": "tt2852720",
+          "tmdb": 64760,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 6,
+        "number": 24,
+        "title": "The Bon Voyage Reaction",
+        "ids": {
+          "trakt": 75503,
+          "tvdb": 4516560,
+          "imdb": "tt2891288",
+          "tmdb": 64759,
+          "tvrage": 0
+        }
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "ids": {
+      "trakt": 4086,
+      "tvdb": 522809,
+      "tmdb": 3739,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 7,
+        "number": 1,
+        "title": "The Hofstadter Insufficiency",
+        "ids": {
+          "trakt": 75504,
+          "tvdb": 4594867,
+          "imdb": "tt3111660",
+          "tmdb": 64778,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 2,
+        "title": "The Deception Verification",
+        "ids": {
+          "trakt": 75505,
+          "tvdb": 4623192,
+          "imdb": "tt2933998",
+          "tmdb": 64781,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 3,
+        "title": "The Scavenger Vortex",
+        "ids": {
+          "trakt": 75506,
+          "tvdb": 4635786,
+          "imdb": "tt3218670",
+          "tmdb": 64779,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 4,
+        "title": "The Raiders Minimization",
+        "ids": {
+          "trakt": 75507,
+          "tvdb": 4635787,
+          "imdb": "tt3221722",
+          "tmdb": 64780,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 5,
+        "title": "The Workplace Proximity",
+        "ids": {
+          "trakt": 75508,
+          "tvdb": 4668379,
+          "imdb": null,
+          "tmdb": 64782,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 6,
+        "title": "The Romance Resonance",
+        "ids": {
+          "trakt": 75509,
+          "tvdb": 4668380,
+          "imdb": "tt3229394",
+          "tmdb": 966293,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 7,
+        "title": "The Proton Displacement",
+        "ids": {
+          "trakt": 75510,
+          "tvdb": 4694392,
+          "imdb": "tt3229396",
+          "tmdb": 966295,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 8,
+        "title": "The Itchy Brain Simulation",
+        "ids": {
+          "trakt": 75511,
+          "tvdb": 4700015,
+          "imdb": "tt3303726",
+          "tmdb": 966296,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 9,
+        "title": "The Thanksgiving Decoupling",
+        "ids": {
+          "trakt": 75512,
+          "tvdb": 4705246,
+          "imdb": "tt3309570",
+          "tmdb": 968153,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 10,
+        "title": "The Discovery Dissipation",
+        "ids": {
+          "trakt": 75513,
+          "tvdb": 4714074,
+          "imdb": "tt3338358",
+          "tmdb": 968871,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 11,
+        "title": "The Cooper Extraction",
+        "ids": {
+          "trakt": 75514,
+          "tvdb": 4720503,
+          "imdb": null,
+          "tmdb": 969334,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 12,
+        "title": "The Hesitation Ramification",
+        "ids": {
+          "trakt": 75515,
+          "tvdb": 4720502,
+          "imdb": null,
+          "tmdb": 969409,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 13,
+        "title": "The Occupation Recalibration",
+        "ids": {
+          "trakt": 75516,
+          "tvdb": 4749334,
+          "imdb": "tt3337730",
+          "tmdb": 970481,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 14,
+        "title": "The Convention Conundrum",
+        "ids": {
+          "trakt": 75517,
+          "tvdb": 4764530,
+          "imdb": "tt3453320",
+          "tmdb": 971295,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 15,
+        "title": "The Locomotive Manipulation",
+        "ids": {
+          "trakt": 75518,
+          "tvdb": 4773931,
+          "imdb": "tt3477310",
+          "tmdb": 971376,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 16,
+        "title": "The Table Polarization",
+        "ids": {
+          "trakt": 75519,
+          "tvdb": 4783271,
+          "imdb": "tt3507240",
+          "tmdb": 972131,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 17,
+        "title": "The Friendship Turbulence",
+        "ids": {
+          "trakt": 75520,
+          "tvdb": 4792591,
+          "imdb": "tt3521962",
+          "tmdb": 972676,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 18,
+        "title": "The Mommy Observation",
+        "ids": {
+          "trakt": 75521,
+          "tvdb": 4792592,
+          "imdb": "tt3517894",
+          "tmdb": 973094,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 19,
+        "title": "The Indecision Amalgamation",
+        "ids": {
+          "trakt": 75522,
+          "tvdb": 4792593,
+          "imdb": "tt3521964",
+          "tmdb": 973688,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 20,
+        "title": "The Relationship Diremption",
+        "ids": {
+          "trakt": 75523,
+          "tvdb": 4840057,
+          "imdb": "tt3554854",
+          "tmdb": 973988,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 21,
+        "title": "The Anything Can Happen Recurrence",
+        "ids": {
+          "trakt": 75524,
+          "tvdb": 4840951,
+          "imdb": null,
+          "tmdb": 974377,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 22,
+        "title": "The Proton Transmogrification",
+        "ids": {
+          "trakt": 75525,
+          "tvdb": 4840952,
+          "imdb": null,
+          "tmdb": 974378,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 23,
+        "title": "The Gorilla Dissolution",
+        "ids": {
+          "trakt": 75526,
+          "tvdb": 4840953,
+          "imdb": "tt3572182",
+          "tmdb": 975272,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 7,
+        "number": 24,
+        "title": "The Status Quo Combustion",
+        "ids": {
+          "trakt": 75527,
+          "tvdb": 4840954,
+          "imdb": "tt3572184",
+          "tmdb": 975625,
+          "tvrage": 0
+        }
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "ids": {
+      "trakt": 4087,
+      "tvdb": 589268,
+      "tmdb": 62016,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 8,
+        "number": 1,
+        "title": "The Locomotion Interruption",
+        "ids": {
+          "trakt": 75528,
+          "tvdb": 4917009,
+          "imdb": "tt3596130",
+          "tmdb": 1000640,
+          "tvrage": 1065567528
+        }
+      },
+      {
+        "season": 8,
+        "number": 2,
+        "title": "The Junior Professor Solution",
+        "ids": {
+          "trakt": 75529,
+          "tvdb": 4917010,
+          "imdb": "tt3807172",
+          "tmdb": 1000641,
+          "tvrage": 1065595345
+        }
+      },
+      {
+        "season": 8,
+        "number": 3,
+        "title": "The First Pitch Insufficiency",
+        "ids": {
+          "trakt": 75530,
+          "tvdb": 4917011,
+          "imdb": "tt3811812",
+          "tmdb": 1001381,
+          "tvrage": 1065616629
+        }
+      },
+      {
+        "season": 8,
+        "number": 4,
+        "title": "The Hook-Up Reverberation",
+        "ids": {
+          "trakt": 75531,
+          "tvdb": 4996845,
+          "imdb": "tt3811814",
+          "tmdb": 1001382,
+          "tvrage": 1065679405
+        }
+      },
+      {
+        "season": 8,
+        "number": 5,
+        "title": "The Focus Attenuation",
+        "ids": {
+          "trakt": 75532,
+          "tvdb": 4997386,
+          "imdb": "tt3811816",
+          "tmdb": 1001383,
+          "tvrage": 1065680877
+        }
+      },
+      {
+        "season": 8,
+        "number": 6,
+        "title": "The Expedition Approximation",
+        "ids": {
+          "trakt": 75533,
+          "tvdb": 4997387,
+          "imdb": "tt3823240",
+          "tmdb": 1001384,
+          "tvrage": 1065683267
+        }
+      },
+      {
+        "season": 8,
+        "number": 7,
+        "title": "The Misinterpretation Agitation",
+        "ids": {
+          "trakt": 75534,
+          "tvdb": 5021431,
+          "imdb": "tt3823244",
+          "tmdb": 1001385,
+          "tvrage": 1065696793
+        }
+      },
+      {
+        "season": 8,
+        "number": 8,
+        "title": "The Prom Equivalency",
+        "ids": {
+          "trakt": 1392144,
+          "tvdb": 5002091,
+          "imdb": "tt3823242",
+          "tmdb": 1012428,
+          "tvrage": 1065690139
+        }
+      },
+      {
+        "season": 8,
+        "number": 9,
+        "title": "The Septum Deviation",
+        "ids": {
+          "trakt": 1392145,
+          "tvdb": 5033323,
+          "imdb": "tt3823248",
+          "tmdb": 1016510,
+          "tvrage": 1065703132
+        }
+      },
+      {
+        "season": 8,
+        "number": 10,
+        "title": "The Champagne Reflection",
+        "ids": {
+          "trakt": 1392146,
+          "tvdb": 5039499,
+          "imdb": "tt3823250",
+          "tmdb": 1018201,
+          "tvrage": 1065707704
+        }
+      },
+      {
+        "season": 8,
+        "number": 11,
+        "title": "The Clean Room Infiltration",
+        "ids": {
+          "trakt": 1392147,
+          "tvdb": 5049225,
+          "imdb": "tt3823252",
+          "tmdb": 1019131,
+          "tvrage": 1065716571
+        }
+      },
+      {
+        "season": 8,
+        "number": 12,
+        "title": "The Space Probe Disintegration",
+        "ids": {
+          "trakt": 1392148,
+          "tvdb": 5066301,
+          "imdb": "tt3823254",
+          "tmdb": 1023703,
+          "tvrage": 1065728622
+        }
+      },
+      {
+        "season": 8,
+        "number": 13,
+        "title": "The Anxiety Optimization",
+        "ids": {
+          "trakt": 1405050,
+          "tvdb": 5077937,
+          "imdb": "tt3862708",
+          "tmdb": 1031868,
+          "tvrage": 1065729773
+        }
+      },
+      {
+        "season": 8,
+        "number": 14,
+        "title": "The Troll Manifestation",
+        "ids": {
+          "trakt": 1723953,
+          "tvdb": 5108937,
+          "imdb": "tt3862712",
+          "tmdb": 1039676,
+          "tvrage": 1065745008
+        }
+      },
+      {
+        "season": 8,
+        "number": 15,
+        "title": "The Comic Book Store Regeneration",
+        "ids": {
+          "trakt": 1726180,
+          "tvdb": 5110662,
+          "imdb": "tt3862710",
+          "tmdb": 1041899,
+          "tvrage": 1065741958
+        }
+      },
+      {
+        "season": 8,
+        "number": 16,
+        "title": "The Intimacy Acceleration",
+        "ids": {
+          "trakt": 1726181,
+          "tvdb": 5110663,
+          "imdb": "tt3862714",
+          "tmdb": 1041629,
+          "tvrage": 1065745009
+        }
+      },
+      {
+        "season": 8,
+        "number": 17,
+        "title": "The Colonization Application",
+        "ids": {
+          "trakt": 1754505,
+          "tvdb": 5127444,
+          "imdb": "tt3862720",
+          "tmdb": 1044145,
+          "tvrage": 1065754069
+        }
+      },
+      {
+        "season": 8,
+        "number": 18,
+        "title": "The Leftover Thermalization",
+        "ids": {
+          "trakt": 1763644,
+          "tvdb": 5135832,
+          "imdb": "tt3862722",
+          "tmdb": 1044789,
+          "tvrage": 1065756634
+        }
+      },
+      {
+        "season": 8,
+        "number": 19,
+        "title": "The Skywalker Incursion",
+        "ids": {
+          "trakt": 1765390,
+          "tvdb": 5149888,
+          "imdb": "tt3862724",
+          "tmdb": 1046725,
+          "tvrage": 1065768525
+        }
+      },
+      {
+        "season": 8,
+        "number": 20,
+        "title": "The Fortification Implementation",
+        "ids": {
+          "trakt": 1765391,
+          "tvdb": 5155402,
+          "imdb": "tt3862726",
+          "tmdb": 1046726,
+          "tvrage": 1065768526
+        }
+      },
+      {
+        "season": 8,
+        "number": 21,
+        "title": "The Communication Deterioration",
+        "ids": {
+          "trakt": 1765392,
+          "tvdb": 5169863,
+          "imdb": "tt3862728",
+          "tmdb": 1050573,
+          "tvrage": 1065780908
+        }
+      },
+      {
+        "season": 8,
+        "number": 22,
+        "title": "The Graduation Transmission",
+        "ids": {
+          "trakt": 1765393,
+          "tvdb": 5173430,
+          "imdb": "tt3862732",
+          "tmdb": 1050574,
+          "tvrage": 1065787791
+        }
+      },
+      {
+        "season": 8,
+        "number": 23,
+        "title": "The Maternal Combustion",
+        "ids": {
+          "trakt": 1765394,
+          "tvdb": 5173431,
+          "imdb": "tt3862734",
+          "tmdb": 1050575,
+          "tvrage": 1065794652
+        }
+      },
+      {
+        "season": 8,
+        "number": 24,
+        "title": "The Commitment Determination",
+        "ids": {
+          "trakt": 1765395,
+          "tvdb": 5173432,
+          "imdb": "tt3862738",
+          "tmdb": 1050576,
+          "tvrage": 1065794655
+        }
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "ids": {
+      "trakt": 110698,
+      "tvdb": 625567,
+      "tmdb": 70493,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 9,
+        "number": 1,
+        "title": "The Matrimonial Momentum",
+        "ids": {
+          "trakt": 1860456,
+          "tvdb": 5248007,
+          "imdb": "tt3603346",
+          "tmdb": 1105614,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 2,
+        "title": "The Separation Oscillation",
+        "ids": {
+          "trakt": 1965697,
+          "tvdb": 5312556,
+          "imdb": "tt4938690",
+          "tmdb": 1105615,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 3,
+        "title": "The Bachelor Party Corrosion",
+        "ids": {
+          "trakt": 1971269,
+          "tvdb": 5316861,
+          "imdb": "tt4962326",
+          "tmdb": 1105616,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 4,
+        "title": "The 2003 Approximation",
+        "ids": {
+          "trakt": 1990453,
+          "tvdb": 5333194,
+          "imdb": "tt4995126",
+          "tmdb": 1112198,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 5,
+        "title": "The Perspiration Implementation",
+        "ids": {
+          "trakt": 1994271,
+          "tvdb": 5336345,
+          "imdb": "tt5027380",
+          "tmdb": 1112199,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 6,
+        "title": "The Helium Insufficiency",
+        "ids": {
+          "trakt": 1998590,
+          "tvdb": 5341207,
+          "imdb": "tt5090816",
+          "tmdb": 1131419,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 7,
+        "title": "The Spock Resonance",
+        "ids": {
+          "trakt": 1998592,
+          "tvdb": 5341206,
+          "imdb": "tt5073156",
+          "tmdb": 1112200,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 8,
+        "title": "The Mystery Date Observation",
+        "ids": {
+          "trakt": 2034709,
+          "tvdb": 5378695,
+          "imdb": "tt5117928",
+          "tmdb": 1135343,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 9,
+        "title": "The Platonic Permutation",
+        "ids": {
+          "trakt": 2040192,
+          "tvdb": 5384384,
+          "imdb": "tt5143500",
+          "tmdb": 1135344,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 10,
+        "title": "The Earworm Reverberation",
+        "ids": {
+          "trakt": 2052057,
+          "tvdb": 5398852,
+          "imdb": "tt5143508",
+          "tmdb": 1136314,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 11,
+        "title": "The Opening Night Excitation",
+        "ids": {
+          "trakt": 2058961,
+          "tvdb": 5406713,
+          "imdb": "tt5143516",
+          "tmdb": 1147325,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 12,
+        "title": "The Sales Call Sublimation",
+        "ids": {
+          "trakt": 2081130,
+          "tvdb": 5436033,
+          "imdb": "tt5273742",
+          "tmdb": 1149672,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 13,
+        "title": "The Empathy Optimization",
+        "ids": {
+          "trakt": 2087315,
+          "tvdb": 5442484,
+          "imdb": "tt5273740",
+          "tmdb": 1149676,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 14,
+        "title": "The Meemaw Materialization",
+        "ids": {
+          "trakt": 2121704,
+          "tvdb": 5479688,
+          "imdb": "tt5295650",
+          "tmdb": 1157668,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 15,
+        "title": "The Valentino Submergence",
+        "ids": {
+          "trakt": 2130037,
+          "tvdb": 5487474,
+          "imdb": "tt5341496",
+          "tmdb": 1160735,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 16,
+        "title": "The Positive Negative Reaction",
+        "ids": {
+          "trakt": 2140009,
+          "tvdb": 5499997,
+          "imdb": "tt5376678",
+          "tmdb": 1163453,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 17,
+        "title": "The Celebration Experimentation",
+        "ids": {
+          "trakt": 2145521,
+          "tvdb": 5507659,
+          "imdb": "tt5436356",
+          "tmdb": 1165278,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 18,
+        "title": "The Application Deterioration",
+        "ids": {
+          "trakt": 2162795,
+          "tvdb": 5529050,
+          "imdb": "tt5497250",
+          "tmdb": 1173420,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 19,
+        "title": "The Solder Excursion Diversion",
+        "ids": {
+          "trakt": 2169547,
+          "tvdb": 5537607,
+          "imdb": "tt5522908",
+          "tmdb": 1173421,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 20,
+        "title": "The Big Bear Precipitation",
+        "ids": {
+          "trakt": 2181271,
+          "tvdb": 5551964,
+          "imdb": "tt5586046",
+          "tmdb": 1179057,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 21,
+        "title": "The Viewing Party Combustion",
+        "ids": {
+          "trakt": 2184691,
+          "tvdb": 5556823,
+          "imdb": "tt5586050",
+          "tmdb": 1179058,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 22,
+        "title": "The Fermentation Bifurcation",
+        "ids": {
+          "trakt": 2184692,
+          "tvdb": 5573269,
+          "imdb": "tt5597958",
+          "tmdb": 1187582,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 23,
+        "title": "The Line Substitution Solution",
+        "ids": {
+          "trakt": 2184693,
+          "tvdb": 5579744,
+          "imdb": "tt5597960",
+          "tmdb": 1189555,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 9,
+        "number": 24,
+        "title": "The Convergence Convergence",
+        "ids": {
+          "trakt": 2184694,
+          "tvdb": 5580583,
+          "imdb": "tt5562854",
+          "tmdb": 1189556,
+          "tvrage": 0
+        }
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "ids": {
+      "trakt": 127604,
+      "tvdb": 0,
+      "tmdb": 80035,
+      "tvrage": null
+    },
+    "episodes": [
+      {
+        "season": 10,
+        "number": 1,
+        "title": "The Conjugal Conjecture",
+        "ids": {
+          "trakt": 2244839,
+          "tvdb": 5654968,
+          "imdb": "tt3603372",
+          "tmdb": 1221931,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 10,
+        "number": 2,
+        "title": "The Military Miniaturization",
+        "ids": {
+          "trakt": 2267810,
+          "tvdb": 5714255,
+          "imdb": "tt5973910",
+          "tmdb": 1221932,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 10,
+        "number": 3,
+        "title": "The Dependence Transcendence",
+        "ids": {
+          "trakt": 2298780,
+          "tvdb": 5723041,
+          "imdb": "tt5996928",
+          "tmdb": 1221933,
+          "tvrage": 0
+        }
+      },
+      {
+        "season": 10,
+        "number": 4,
+        "title": "The Cohabitation Experimentation",
+        "ids": {
+          "trakt": 2298781,
+          "tvdb": 5728928,
+          "imdb": null,
+          "tmdb": 0,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 5,
+        "title": "The Hot Tub Contamination",
+        "ids": {
+          "trakt": 2313216,
+          "tvdb": 5728929,
+          "imdb": null,
+          "tmdb": 0,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 6,
+        "title": null,
+        "ids": {
+          "trakt": 2313222,
+          "tvdb": 5728930,
+          "imdb": null,
+          "tmdb": 0,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 7,
+        "title": null,
+        "ids": {
+          "trakt": 2313223,
+          "tvdb": 5759301,
+          "imdb": null,
+          "tmdb": null,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 8,
+        "title": null,
+        "ids": {
+          "trakt": 2322308,
+          "tvdb": 5726269,
+          "imdb": null,
+          "tmdb": null,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 9,
+        "title": null,
+        "ids": {
+          "trakt": 2322310,
+          "tvdb": 5726270,
+          "imdb": null,
+          "tmdb": null,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 10,
+        "title": null,
+        "ids": {
+          "trakt": 2322318,
+          "tvdb": 5726271,
+          "imdb": null,
+          "tmdb": null,
+          "tvrage": null
+        }
+      },
+      {
+        "season": 10,
+        "number": 11,
+        "title": null,
+        "ids": {
+          "trakt": 2322321,
+          "tvdb": 5726272,
+          "imdb": null,
+          "tmdb": null,
+          "tvrage": null
+        }
+      }
+    ]
+  }
+]

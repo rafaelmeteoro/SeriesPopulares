@@ -9,8 +9,10 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.rafael.seriespopulares.data.model.Season;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.helper.AssetsHelper;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
 
@@ -39,9 +41,26 @@ public class MockPopularShowsService implements PopularShowsService {
 
             showsJson = AssetsHelper.getStringFromAssets(mContext, "shows_success.json");
             Gson gson = new Gson();
-            Type showsType = new TypeToken<List<Show>>(){}.getType();
+            Type showsType = new TypeToken<List<Show>>() {
+            }.getType();
             shows = gson.fromJson(showsJson, showsType);
             return Observable.just(shows);
+        } catch (Exception e) {
+            return Observable.error(e);
+        }
+    }
+
+    @Override
+    public Observable<List<Season>> getSeasons(@Path("id") int id, @Query("extended") String extended) {
+        String seasonsJson;
+        List<Season> seasons;
+        try {
+            seasonsJson = AssetsHelper.getStringFromAssets(mContext, "shows_episodes_success.json");
+            Gson gson = new Gson();
+            Type seasonsType = new TypeToken<List<Season>>() {
+            }.getType();
+            seasons = gson.fromJson(seasonsJson, seasonsType);
+            return Observable.just(seasons);
         } catch (Exception e) {
             return Observable.error(e);
         }
