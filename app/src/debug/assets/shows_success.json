@@ -1,0 +1,2685 @@
+[
+  {
+    "title": "Game of Thrones",
+    "year": 2011,
+    "ids": {
+      "trakt": 1390,
+      "slug": "game-of-thrones",
+      "tvdb": 121361,
+      "imdb": "tt0944947",
+      "tmdb": 1399,
+      "tvrage": 24493
+    },
+    "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and the icy horrors beyond.",
+    "first_aired": "2011-04-17T07:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 55,
+    "certification": "TV-MA",
+    "network": "HBO",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=BpJYNVhGf1s",
+    "homepage": "http://www.hbo.com/game-of-thrones",
+    "status": "returning series",
+    "rating": 9.38334,
+    "votes": 50751,
+    "updated_at": "2016-09-24T13:49:22.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "is",
+      "it",
+      "ko",
+      "lb",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "tw",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "fantasy",
+      "science-fiction",
+      "action",
+      "adventure"
+    ],
+    "aired_episodes": 60,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/fanarts/medium/76d5df8aed.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/390/fanarts/medium/76d5df8aed.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/390/fanarts/thumb/76d5df8aed.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/posters/medium/93df9cd612.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/390/posters/medium/93df9cd612.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/390/posters/thumb/93df9cd612.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/logos/original/13b614ad43.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/cleararts/original/5cbde9e647.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/banners/original/9fefff703d.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/390/thumbs/original/7beccbd5a1.jpg"
+      }
+    }
+  },
+  {
+    "title": "Breaking Bad",
+    "year": 2008,
+    "ids": {
+      "trakt": 1388,
+      "slug": "breaking-bad",
+      "tvdb": 81189,
+      "imdb": "tt0903747",
+      "tmdb": 1396,
+      "tvrage": 18164
+    },
+    "overview": "Walter White, a struggling high school chemistry teacher, is diagnosed with advanced lung cancer. He turns to a life of crime, producing and selling methamphetamine accompanied by a former student, Jesse Pinkman, with the aim of securing his family's financial future before he dies.",
+    "first_aired": "2008-01-20T02:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-MA",
+    "network": "AMC",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=XZ8daibM3AE",
+    "homepage": "http://www.amctv.com/shows/breaking-bad",
+    "status": "ended",
+    "rating": 9.43124,
+    "votes": 41545,
+    "updated_at": "2016-09-24T13:43:14.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "aired_episodes": 62,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/fanarts/medium/fdbc0cb02d.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/388/fanarts/medium/fdbc0cb02d.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/388/fanarts/thumb/fdbc0cb02d.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/posters/medium/fa39b59954.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/388/posters/medium/fa39b59954.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/388/posters/thumb/fa39b59954.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/logos/original/d8abdb2dee.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/cleararts/original/1f00520834.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/banners/original/c53872a7e2.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/388/thumbs/original/2fd220ab54.jpg"
+      }
+    }
+  },
+  {
+    "title": "The Big Bang Theory",
+    "year": 2007,
+    "ids": {
+      "trakt": 1409,
+      "slug": "the-big-bang-theory",
+      "tvdb": 80379,
+      "imdb": "tt0898266",
+      "tmdb": 1418,
+      "tvrage": 8511
+    },
+    "overview": "What happens when hyperintelligent roommates Sheldon and Leonard meet Penny, a free-spirited beauty moving in next door, and realize they know next to nothing about life outside of the lab. Rounding out the crew are the smarmy Wolowitz, who thinks he's as sexy as he is brainy, and Koothrappali, who suffers from an inability to speak in the presence of a woman.",
+    "first_aired": "2007-09-25T00:00:00.000Z",
+    "airs": {
+      "day": "Monday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 22,
+    "certification": "TV-PG",
+    "network": "CBS",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=3vLXy_w_VKg",
+    "homepage": "http://www.cbs.com/primetime/big_bang_theory",
+    "status": "returning series",
+    "rating": 8.49324,
+    "votes": 37114,
+    "updated_at": "2016-09-24T14:22:04.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "is",
+      "it",
+      "ja",
+      "km",
+      "ko",
+      "lb",
+      "lt",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "comedy"
+    ],
+    "aired_episodes": 208,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/fanarts/medium/cff0b01ee7.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/409/fanarts/medium/cff0b01ee7.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/409/fanarts/thumb/cff0b01ee7.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/posters/medium/8adfe77938.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/409/posters/medium/8adfe77938.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/409/posters/thumb/8adfe77938.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/logos/original/6d663f3195.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/cleararts/original/f96dc7ae79.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/banners/original/cfd96bef0d.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/409/thumbs/original/892ac50b13.jpg"
+      }
+    }
+  },
+  {
+    "title": "The Walking Dead",
+    "year": 2010,
+    "ids": {
+      "trakt": 1393,
+      "slug": "the-walking-dead",
+      "tvdb": 153021,
+      "imdb": "tt1520211",
+      "tmdb": 1402,
+      "tvrage": 25056
+    },
+    "overview": "The world we knew is gone. An epidemic of apocalyptic proportions has swept the globe causing the dead to rise and feed on the living. In a matter of months society has crumbled. In a world ruled by the dead, we are forced to finally start living. Based on a comic book series of the same name by Robert Kirkman, this AMC project focuses on the world after a zombie apocalypse. The series follows a police officer, Rick Grimes, who wakes up from a coma to find the world ravaged with zombies. Looking for his family, he and a group of survivors attempt to battle against the zombies in order to stay alive.",
+    "first_aired": "2010-10-31T00:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 50,
+    "certification": "TV-MA",
+    "network": "AMC",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=R1v0uFms68U",
+    "homepage": "http://www.amctv.com/shows/the-walking-dead/",
+    "status": "returning series",
+    "rating": 8.62626,
+    "votes": 36389,
+    "updated_at": "2016-09-24T16:43:33.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cn",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "lt",
+      "lv",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "action",
+      "adventure",
+      "horror",
+      "suspense"
+    ],
+    "aired_episodes": 83,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/fanarts/medium/fc68b3b649.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/393/fanarts/medium/fc68b3b649.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/393/fanarts/thumb/fc68b3b649.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/posters/medium/dec5cd226c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/393/posters/medium/dec5cd226c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/393/posters/thumb/dec5cd226c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/logos/original/e70ab3af09.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/cleararts/original/67608bba51.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/banners/original/24a32a2c19.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/393/thumbs/original/922707c72d.jpg"
+      }
+    }
+  },
+  {
+    "title": "Dexter",
+    "year": 2006,
+    "ids": {
+      "trakt": 1396,
+      "slug": "dexter",
+      "tvdb": 79349,
+      "imdb": "tt0773262",
+      "tmdb": 1405,
+      "tvrage": null
+    },
+    "overview": "He's smart, he's good looking, and he's got a great sense of humor. He's Dexter Morgan, everyone's favorite serial killer. As a Miami forensics expert, he spends his days solving crimes, & nights committing them. But Dexter lives by a strict code of honor that is both his saving grace and lifelong burden. Torn between his deadly compulsion and his desire for true happiness, Dexter is a man in profound conflict with the world and himself.",
+    "first_aired": "2006-10-01T07:00:00.000Z",
+    "airs": {
+      "day": null,
+      "time": null,
+      "timezone": "America/New_York"
+    },
+    "runtime": 55,
+    "certification": "TV-MA",
+    "network": "Showtime",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=u2Xgcd3lq8",
+    "homepage": "http://www.sho.com/sho/dexter/home",
+    "status": "ended",
+    "rating": 8.73648,
+    "votes": 25497,
+    "updated_at": "2016-09-24T11:14:23.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sr",
+      "sv",
+      "tr",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "crime",
+      "suspense",
+      "thriller"
+    ],
+    "aired_episodes": 96,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/fanarts/medium/3c810f5c41.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/396/fanarts/medium/3c810f5c41.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/396/fanarts/thumb/3c810f5c41.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/posters/medium/af1b16f10c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/396/posters/medium/af1b16f10c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/396/posters/thumb/af1b16f10c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/logos/original/a123c07a62.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/cleararts/original/6ed9624120.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/banners/original/eb9edd8c25.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/396/thumbs/original/ef8cd20f71.jpg"
+      }
+    }
+  },
+  {
+    "title": "How I Met Your Mother",
+    "year": 2005,
+    "ids": {
+      "trakt": 1095,
+      "slug": "how-i-met-your-mother",
+      "tvdb": 75760,
+      "imdb": "tt0460649",
+      "tmdb": 1100,
+      "tvrage": 3918
+    },
+    "overview": "The year is 2030. Ted Mosby is relaying the story of how he met his wife to his daughter and son. The story starts in the year 2005, when then twenty-seven year old architect Ted was spurred on to want to get married after his best friends from his college days at Wesleyan, lawyer Marshall Eriksen, who was his roommate at the time and kindergarten teacher Lily Aldrin, got engaged after nine years of dating each other. Ted's new quest in life was much to the dismay of his womanizing friend, Barney Stinson. But soon after Marshall and Lily's engagement, Ted believed that his life mate was going to be news reporter and aspiring news anchor Robin Scherbatsky, who, despite having had a romantic relationship with her after this time, ended up being who the kids know as their \"Aunt\" Robin. As Ted relays the story to his kids, the constants are that their Uncle Marshall, Aunt Lily, Uncle Barney and Aunt Robin are always in the picture and thus have something to do with how he got together with their mother.",
+    "first_aired": "2005-09-19T07:00:00.000Z",
+    "airs": {
+      "day": "Monday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 25,
+    "certification": "TV-PG",
+    "network": "CBS",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.cbs.com/shows/how_i_met_your_mother/",
+    "status": "ended",
+    "rating": 8.40483,
+    "votes": 25349,
+    "updated_at": "2016-09-22T09:03:38.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "tr",
+      "uk"
+    ],
+    "genres": [
+      "comedy",
+      "drama",
+      "romance"
+    ],
+    "aired_episodes": 208,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/fanarts/medium/9b11bce83a.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/095/fanarts/medium/9b11bce83a.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/095/fanarts/thumb/9b11bce83a.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/posters/medium/4922cab2bc.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/095/posters/medium/4922cab2bc.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/095/posters/thumb/4922cab2bc.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/logos/original/805b0fbbcc.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/cleararts/original/84f872ffc9.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/banners/original/7e89bd0998.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/095/thumbs/original/868495436a.jpg"
+      }
+    }
+  },
+  {
+    "title": "Sherlock",
+    "year": 2010,
+    "ids": {
+      "trakt": 19792,
+      "slug": "sherlock",
+      "tvdb": 176941,
+      "imdb": "tt1475582",
+      "tmdb": 19885,
+      "tvrage": 23433
+    },
+    "overview": "Sherlock is a British television crime drama that presents a contemporary adaptation of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.",
+    "first_aired": "2010-07-25T07:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "20:30",
+      "timezone": "Europe/London"
+    },
+    "runtime": 90,
+    "certification": "TV-14",
+    "network": "BBC One",
+    "country": "gb",
+    "trailer": "http://youtube.com/watch?v=JP5Dr63TbSU",
+    "homepage": "http://www.bbc.co.uk/programmes/b018ttws",
+    "status": "returning series",
+    "rating": 9.25332,
+    "votes": 23871,
+    "updated_at": "2016-09-22T10:40:50.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "crime",
+      "mystery",
+      "adventure",
+      "thriller"
+    ],
+    "aired_episodes": 9,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/fanarts/medium/605985cad2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/019/792/fanarts/medium/605985cad2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/019/792/fanarts/thumb/605985cad2.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/posters/medium/6311e0343c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/019/792/posters/medium/6311e0343c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/019/792/posters/thumb/6311e0343c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/logos/original/cf63398f03.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/cleararts/original/0339c5f877.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/banners/original/ca665b6d1d.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/019/792/thumbs/original/79e863da08.jpg"
+      }
+    }
+  },
+  {
+    "title": "Arrow",
+    "year": 2012,
+    "ids": {
+      "trakt": 1403,
+      "slug": "arrow",
+      "tvdb": 257655,
+      "imdb": "tt2193021",
+      "tmdb": 1412,
+      "tvrage": 30715
+    },
+    "overview": "Oliver Queen and his father are lost at sea when their luxury yacht sinks. His father doesn't survive. Oliver survives on an uncharted island for five years learning to fight, but also learning about his father's corruption and unscrupulous business dealings. He returns to civilization a changed man, determined to put things right. He disguises himself with the hood of one of his mysterious island mentors, arms himself with a bow and sets about hunting down the men and women who have corrupted his city.",
+    "first_aired": "2012-10-11T00:00:00.000Z",
+    "airs": {
+      "day": "Wednesday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "The CW",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=LxG7JR4-nCM",
+    "homepage": "http://www.cwtv.com/shows/arrow",
+    "status": "returning series",
+    "rating": 8.00774,
+    "votes": 22237,
+    "updated_at": "2016-09-23T12:04:44.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "lt",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "action",
+      "adventure",
+      "crime",
+      "science-fiction"
+    ],
+    "aired_episodes": 92,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/fanarts/medium/a9f26bb5a4.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/403/fanarts/medium/a9f26bb5a4.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/403/fanarts/thumb/a9f26bb5a4.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/posters/medium/e68cd618e2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/403/posters/medium/e68cd618e2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/403/posters/thumb/e68cd618e2.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/logos/original/df42f19d28.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/cleararts/original/b859003114.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/banners/original/bcb318ed5d.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/403/thumbs/original/bdc790c1e5.jpg"
+      }
+    }
+  },
+  {
+    "title": "Friends",
+    "year": 1994,
+    "ids": {
+      "trakt": 1657,
+      "slug": "friends",
+      "tvdb": 79168,
+      "imdb": "tt0108778",
+      "tmdb": 1668,
+      "tvrage": 3616
+    },
+    "overview": "Six young people, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+    "first_aired": "1994-09-23T00:00:00.000Z",
+    "airs": {
+      "day": "Thursday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 22,
+    "certification": "TV-14",
+    "network": "NBC",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://warnervideo.com/friends15/",
+    "status": "ended",
+    "rating": 8.95879,
+    "votes": 17812,
+    "updated_at": "2016-09-24T16:15:02.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "comedy"
+    ],
+    "aired_episodes": 236,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/fanarts/medium/729481fa38.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/657/fanarts/medium/729481fa38.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/657/fanarts/thumb/729481fa38.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/posters/medium/1c1fef0e6d.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/657/posters/medium/1c1fef0e6d.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/657/posters/thumb/1c1fef0e6d.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/logos/original/e501e8b481.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/cleararts/original/d72d170532.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/banners/original/fd7c731c91.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/657/thumbs/original/76534d8848.jpg"
+      }
+    }
+  },
+  {
+    "title": "Homeland",
+    "year": 2011,
+    "ids": {
+      "trakt": 1398,
+      "slug": "homeland",
+      "tvdb": 247897,
+      "imdb": "tt1796960",
+      "tmdb": 1407,
+      "tvrage": 27811
+    },
+    "overview": "When Marine Nicolas Brody is hailed as a hero after he returns home from eight years of captivity in Iraq, intelligence officer Carrie Mathison is the only one who suspects that he may have been turned.",
+    "first_aired": "2011-10-02T07:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 60,
+    "certification": "TV-MA",
+    "network": "Showtime",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=KyFmS3wRPCQ",
+    "homepage": "http://www.sho.com/sho/homeland/home",
+    "status": "returning series",
+    "rating": 8.47127,
+    "votes": 18015,
+    "updated_at": "2016-09-22T09:02:35.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller",
+      "crime",
+      "suspense"
+    ],
+    "aired_episodes": 60,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/fanarts/medium/701b0475bf.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/398/fanarts/medium/701b0475bf.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/398/fanarts/thumb/701b0475bf.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/posters/medium/cb506c45bc.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/398/posters/medium/cb506c45bc.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/398/posters/thumb/cb506c45bc.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/logos/original/b755bd71ac.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/cleararts/original/7521695aeb.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/banners/original/35de727337.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/398/thumbs/original/bbb6ae237d.jpg"
+      }
+    }
+  },
+  {
+    "title": "Lost",
+    "year": 2004,
+    "ids": {
+      "trakt": 4583,
+      "slug": "lost-2004",
+      "tvdb": 73739,
+      "imdb": "tt0411008",
+      "tmdb": 4607,
+      "tvrage": 4284
+    },
+    "overview": "After their plane, Oceanic Air flight 815, tore apart whilst thousands of miles off course, the survivors find themselves on a mysterious deserted island where they soon find out they are not alone.",
+    "first_aired": "2004-09-22T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "ABC (US)",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=qMXAsu64-Ws",
+    "homepage": "http://abc.go.com/shows/lost",
+    "status": "ended",
+    "rating": 8.43775,
+    "votes": 17798,
+    "updated_at": "2016-09-24T11:14:34.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "adventure",
+      "action"
+    ],
+    "aired_episodes": 120,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/fanarts/medium/79e6278444.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/004/583/fanarts/medium/79e6278444.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/004/583/fanarts/thumb/79e6278444.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/posters/medium/0dd5fcd4a2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/004/583/posters/medium/0dd5fcd4a2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/004/583/posters/thumb/0dd5fcd4a2.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/logos/original/503ff2a1a5.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/cleararts/original/d9119fa16d.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/banners/original/df24cb9825.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/004/583/thumbs/original/659025bc44.jpg"
+      }
+    }
+  },
+  {
+    "title": "House",
+    "year": 2004,
+    "ids": {
+      "trakt": 1399,
+      "slug": "house",
+      "tvdb": 73255,
+      "imdb": "tt0412142",
+      "tmdb": 1408,
+      "tvrage": 3908
+    },
+    "overview": "Go deeper into the medical mysteries of House, TV's most compelling drama. Hugh Laurie stars as the brilliant but sarcastic Dr. Gregory House, a maverick physician who is devoid of bedside manner. While his behavior can border on antisocial, Dr. House thrives on the challenge of solving the medical puzzles that other doctors give up on. Together with his hand-picked team of young medical experts, he'll do whatever it takes in the race against the clock to solve the case.",
+    "first_aired": "2004-11-16T08:00:00.000Z",
+    "airs": {
+      "day": null,
+      "time": null,
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "FOX (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.fox.com/house/index.htm",
+    "status": "ended",
+    "rating": 8.79269,
+    "votes": 17143,
+    "updated_at": "2016-09-17T10:30:33.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hu",
+      "it",
+      "ko",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "tr",
+      "uk"
+    ],
+    "genres": [
+      "comedy",
+      "drama",
+      "mystery"
+    ],
+    "aired_episodes": 176,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/fanarts/medium/c628f24771.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/399/fanarts/medium/c628f24771.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/399/fanarts/thumb/c628f24771.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/posters/medium/76fae8b69b.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/399/posters/medium/76fae8b69b.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/399/posters/thumb/76fae8b69b.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/logos/original/2a5748f5d7.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/cleararts/original/6a9b6f6448.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/banners/original/5395bb01d7.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/399/thumbs/original/ed951f1f59.jpg"
+      }
+    }
+  },
+  {
+    "title": "Fringe",
+    "year": 2008,
+    "ids": {
+      "trakt": 1693,
+      "slug": "fringe",
+      "tvdb": 82066,
+      "imdb": "tt1119644",
+      "tmdb": 1705,
+      "tvrage": 18388
+    },
+    "overview": "The series follows a Federal Bureau of Investigation \"Fringe Division\" team based in Boston. The team uses unorthodox \"fringe\" science and FBI investigative techniques to investigate a series of unexplained, often ghastly occurrences, some of which are related to mysteries surrounding a parallel universe.",
+    "first_aired": "2008-08-26T07:00:00.000Z",
+    "airs": {
+      "day": null,
+      "time": null,
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "FOX (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.fox.com/fringe",
+    "status": "ended",
+    "rating": 8.8005,
+    "votes": 16952,
+    "updated_at": "2016-09-21T09:06:00.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hu",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "tr",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "fantasy",
+      "science-fiction",
+      "crime",
+      "thriller"
+    ],
+    "aired_episodes": 100,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/fanarts/medium/0c025fb6d2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/693/fanarts/medium/0c025fb6d2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/693/fanarts/thumb/0c025fb6d2.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/posters/medium/65e2693804.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/693/posters/medium/65e2693804.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/693/posters/thumb/65e2693804.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/logos/original/9f95d57aa7.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/cleararts/original/8347282d1b.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/banners/original/de0af5a2ca.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/693/thumbs/original/bc206730c2.jpg"
+      }
+    }
+  },
+  {
+    "title": "House of Cards",
+    "year": 2013,
+    "ids": {
+      "trakt": 1416,
+      "slug": "house-of-cards",
+      "tvdb": 262980,
+      "imdb": "tt1856010",
+      "tmdb": 1425,
+      "tvrage": 27822
+    },
+    "overview": "Ruthless and cunning, Congressman Francis Underwood and his wife Claire stop at nothing to conquer everything. This wicked political drama penetrates the shadowy world of greed, sex and corruption in modern D.C.",
+    "first_aired": "2013-02-01T08:00:00.000Z",
+    "airs": {
+      "day": "Friday",
+      "time": "00:01",
+      "timezone": "America/New_York"
+    },
+    "runtime": 60,
+    "certification": "TV-MA",
+    "network": "Netflix",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.netflix.com/title/70178217",
+    "status": "returning series",
+    "rating": 8.98433,
+    "votes": 15570,
+    "updated_at": "2016-09-22T08:59:07.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hu",
+      "it",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "aired_episodes": 52,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/fanarts/medium/28b9159c81.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/416/fanarts/medium/28b9159c81.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/416/fanarts/thumb/28b9159c81.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/posters/medium/d157e5bbb2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/416/posters/medium/d157e5bbb2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/416/posters/thumb/d157e5bbb2.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/logos/original/c37ec13140.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/cleararts/original/0fa8e384b0.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/banners/original/d893d3b810.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/416/thumbs/original/47eec40c39.jpg"
+      }
+    }
+  },
+  {
+    "title": "Suits",
+    "year": 2011,
+    "ids": {
+      "trakt": 37522,
+      "slug": "suits",
+      "tvdb": 247808,
+      "imdb": "tt1632701",
+      "tmdb": 37680,
+      "tvrage": 27518
+    },
+    "overview": "Suits follows college drop-out Mike Ross, who accidentally lands a job with one of New York's best legal closers, Harvey Specter. They soon become a winning team with Mike's raw talent and photographic memory, and Mike soon reminds Harvey of why he went into the field of law in the first place.",
+    "first_aired": "2011-06-23T00:00:00.000Z",
+    "airs": {
+      "day": "Wednesday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "USA Network",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=SYUQKm2nZNE",
+    "homepage": "http://www.usanetwork.com/suits",
+    "status": "returning series",
+    "rating": 8.72965,
+    "votes": 15639,
+    "updated_at": "2016-09-23T00:41:11.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "co",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "lb",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "aired_episodes": 86,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/fanarts/medium/6ecdb75c1c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/037/522/fanarts/medium/6ecdb75c1c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/037/522/fanarts/thumb/6ecdb75c1c.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/posters/medium/0e6117705c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/037/522/posters/medium/0e6117705c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/037/522/posters/thumb/0e6117705c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/logos/original/dacfe23f77.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/cleararts/original/14babfb15f.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/banners/original/2dc5505d8f.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/037/522/thumbs/original/bd49c66c5f.jpg"
+      }
+    }
+  },
+  {
+    "title": "Supernatural",
+    "year": 2005,
+    "ids": {
+      "trakt": 1611,
+      "slug": "supernatural",
+      "tvdb": 78901,
+      "imdb": "tt0460681",
+      "tmdb": 1622,
+      "tvrage": 5410
+    },
+    "overview": "Two brothers follow their father's footsteps as \"hunters\" fighting evil supernatural beings of many kinds including monsters, demons, and gods that roam the earth.",
+    "first_aired": "2005-09-13T07:00:00.000Z",
+    "airs": {
+      "day": "Thursday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "The CW",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.cwtv.com/shows/supernatural",
+    "status": "returning series",
+    "rating": 8.52418,
+    "votes": 15054,
+    "updated_at": "2016-09-24T11:55:29.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "fantasy",
+      "science-fiction",
+      "comedy",
+      "horror"
+    ],
+    "aired_episodes": 241,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/fanarts/medium/51ecc2f7b4.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/611/fanarts/medium/51ecc2f7b4.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/611/fanarts/thumb/51ecc2f7b4.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/posters/medium/b4d07f40b8.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/611/posters/medium/b4d07f40b8.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/611/posters/thumb/b4d07f40b8.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/logos/original/8703317e6f.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/cleararts/original/3f86169b92.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/banners/original/e916110de4.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/611/thumbs/original/c2770d5664.jpg"
+      }
+    }
+  },
+  {
+    "title": "Modern Family",
+    "year": 2009,
+    "ids": {
+      "trakt": 1412,
+      "slug": "modern-family",
+      "tvdb": 95011,
+      "imdb": "tt1442437",
+      "tmdb": 1421,
+      "tvrage": 22622
+    },
+    "overview": "This mockumentary explores the many different types of a modern family through the stories of a gay couple, comprised of Mitchell and Cameron, and their daughter Lily, a straight couple, comprised of Phil and Claire, and their three kids, Haley, Alex, and Luke, and a multi-ethnic couple, which is comprised of Jay and Gloria, and her son Manny.",
+    "first_aired": "2009-09-23T07:00:00.000Z",
+    "airs": {
+      "day": "Wednesday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 25,
+    "certification": "TV-PG",
+    "network": "ABC (US)",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=DHyKECa1VaA",
+    "homepage": "http://abc.go.com/shows/modern-family",
+    "status": "returning series",
+    "rating": 8.54901,
+    "votes": 14630,
+    "updated_at": "2016-09-24T13:51:21.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "lb",
+      "lt",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "comedy"
+    ],
+    "aired_episodes": 167,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/fanarts/medium/f04803f6e6.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/412/fanarts/medium/f04803f6e6.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/412/fanarts/thumb/f04803f6e6.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/posters/medium/cd7b6fcd28.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/412/posters/medium/cd7b6fcd28.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/412/posters/thumb/cd7b6fcd28.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/logos/original/098d4e5a5f.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/cleararts/original/027dcf0f7f.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/banners/original/7152ecf377.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/412/thumbs/original/e4f90a0866.jpg"
+      }
+    }
+  },
+  {
+    "title": "Doctor Who",
+    "year": 2005,
+    "ids": {
+      "trakt": 56872,
+      "slug": "doctor-who-2005",
+      "tvdb": 78804,
+      "imdb": "tt0436992",
+      "tmdb": 57243,
+      "tvrage": 3332
+    },
+    "overview": "The Doctor is an alien Time Lord from the planet Gallifrey who travels through all of time and space in his TARDIS. He has a long list of friends and companions who have shared journeys with him. Instead of dying, the Doctor is able to “regenerate” into a new body, taking on a new personality with each regeneration. Twelve actors, plus John Hurt, have played The Doctor thus far.",
+    "first_aired": "2005-03-26T20:30:00.000Z",
+    "airs": {
+      "day": "Saturday",
+      "time": "20:30",
+      "timezone": "Europe/London"
+    },
+    "runtime": 45,
+    "certification": "TV-PG",
+    "network": "BBC One",
+    "country": "gb",
+    "trailer": "http://youtube.com/watch?v=hV5_L-Vnu1I",
+    "homepage": "http://www.bbc.co.uk/programmes/b006q2x0",
+    "status": "returning series",
+    "rating": 9.06135,
+    "votes": 13154,
+    "updated_at": "2016-09-23T11:38:05.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "action",
+      "adventure",
+      "science-fiction"
+    ],
+    "aired_episodes": 115,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/fanarts/medium/e37d501a02.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/056/872/fanarts/medium/e37d501a02.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/056/872/fanarts/thumb/e37d501a02.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/posters/medium/8c421e339d.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/056/872/posters/medium/8c421e339d.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/056/872/posters/thumb/8c421e339d.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/logos/original/908c4e7ff2.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/cleararts/original/9ee95ac313.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/banners/original/eb6561d0ee.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/056/872/thumbs/original/6066c7e461.jpg"
+      }
+    }
+  },
+  {
+    "title": "Orange Is the New Black",
+    "year": 2013,
+    "ids": {
+      "trakt": 1415,
+      "slug": "orange-is-the-new-black",
+      "tvdb": 264586,
+      "imdb": "tt2372162",
+      "tmdb": 1424,
+      "tvrage": 32950
+    },
+    "overview": "Piper Chapman is a public relations executive with a career and a fiance when her past suddenly catches up to her. In her mid-30s she is sentenced to spend time in a minimum-security women's prison in Connecticut for her association with a drug runner 10 years earlier. This Netflix original series is based on the book of the same title. Forced to trade power suits for prison orange, Chapman makes her way through the corrections system and adjusts to life behind bars, making friends with the many eccentric, unusual and unexpected people she meets.",
+    "first_aired": "2013-07-11T07:00:00.000Z",
+    "airs": {
+      "day": "Friday",
+      "time": "00:01",
+      "timezone": "America/New_York"
+    },
+    "runtime": 60,
+    "certification": "TV-MA",
+    "network": "Netflix",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=njy0dFFlpAc",
+    "homepage": "https://www.netflix.com/title/70242311",
+    "status": "returning series",
+    "rating": 8.37514,
+    "votes": 13003,
+    "updated_at": "2016-09-23T10:55:13.000Z",
+    "language": "en",
+    "available_translations": [
+      "bs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru"
+    ],
+    "genres": [
+      "comedy",
+      "drama",
+      "crime"
+    ],
+    "aired_episodes": 52,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/fanarts/medium/194f967c76.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/415/fanarts/medium/194f967c76.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/415/fanarts/thumb/194f967c76.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/posters/medium/ed46c0dae5.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/415/posters/medium/ed46c0dae5.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/415/posters/thumb/ed46c0dae5.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/logos/original/71c71795d5.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/cleararts/original/ef57034acf.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/banners/original/c4ee94f2d3.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/415/thumbs/original/29e8f1d107.jpg"
+      }
+    }
+  },
+  {
+    "title": "The Simpsons",
+    "year": 1989,
+    "ids": {
+      "trakt": 455,
+      "slug": "the-simpsons",
+      "tvdb": 71663,
+      "imdb": "tt0096697",
+      "tmdb": 456,
+      "tvrage": 6190
+    },
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "first_aired": "1989-12-17T08:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 25,
+    "certification": "TV-PG",
+    "network": "FOX (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.thesimpsons.com/",
+    "status": "returning series",
+    "rating": 8.586,
+    "votes": 12372,
+    "updated_at": "2016-09-24T13:54:11.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "lb",
+      "lt",
+      "lv",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "sv",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "animation",
+      "comedy",
+      "family"
+    ],
+    "aired_episodes": 596,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/fanarts/medium/a286b2a2c4.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/000/455/fanarts/medium/a286b2a2c4.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/000/455/fanarts/thumb/a286b2a2c4.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/posters/medium/8b737766ea.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/000/455/posters/medium/8b737766ea.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/000/455/posters/thumb/8b737766ea.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/logos/original/3898f4ae1c.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/cleararts/original/28907f732f.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/banners/original/ea9fb02ccd.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/000/455/thumbs/original/6668ea7020.jpg"
+      }
+    }
+  },
+  {
+    "title": "True Detective",
+    "year": 2014,
+    "ids": {
+      "trakt": 46375,
+      "slug": "true-detective",
+      "tvdb": 270633,
+      "imdb": "tt2356777",
+      "tmdb": 46648,
+      "tvrage": 31369
+    },
+    "overview": "An anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
+    "first_aired": "2014-01-12T08:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 60,
+    "certification": "TV-MA",
+    "network": "HBO",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=TXwCoNwBSkQ",
+    "homepage": "http://www.hbo.com/true-detective",
+    "status": "returning series",
+    "rating": 8.84268,
+    "votes": 12185,
+    "updated_at": "2016-09-02T10:35:54.000Z",
+    "language": "en",
+    "available_translations": [
+      "fr",
+      "en",
+      "bg",
+      "pt",
+      "nl",
+      "pl",
+      "de",
+      "el",
+      "da",
+      "tr",
+      "es",
+      "zh",
+      "cs",
+      "hu",
+      "it",
+      "ru",
+      "sv",
+      "ro",
+      "hr",
+      "bs",
+      "sl",
+      "vi",
+      "az",
+      "he",
+      "fi",
+      "uk",
+      "ar"
+    ],
+    "genres": [
+      "drama",
+      "crime",
+      "mystery"
+    ],
+    "aired_episodes": 16,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/fanarts/medium/f8c6f152b2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/046/375/fanarts/medium/f8c6f152b2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/046/375/fanarts/thumb/f8c6f152b2.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/posters/medium/2cafba378c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/046/375/posters/medium/2cafba378c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/046/375/posters/thumb/2cafba378c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/logos/original/ef4294f39a.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/cleararts/original/5b03f00b28.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/banners/original/5ece5ac01a.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/thumbs/original/452a9b5dbe.jpg"
+      }
+    }
+  },
+  {
+    "title": "Marvel's Agents of S.H.I.E.L.D.",
+    "year": 2013,
+    "ids": {
+      "trakt": 1394,
+      "slug": "marvel-s-agents-of-s-h-i-e-l-d",
+      "tvdb": 263365,
+      "imdb": "tt2364582",
+      "tmdb": 1403,
+      "tvrage": 32656
+    },
+    "overview": "Phil Coulson (Clark Gregg, reprising his role from \"The Avengers\" and \"Iron Man\" ) heads an elite team of fellow agents with the worldwide law-enforcement organization known as SHIELD (Strategic Homeland Intervention Enforcement and Logistics Division), as they investigate strange occurrences around the globe. Its members -- each of whom brings a specialty to the group -- work with Coulson to protect those who cannot protect themselves from extraordinary and inconceivable threats, including a formidable group known as Hydra.",
+    "first_aired": "2013-09-25T02:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "22:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 43,
+    "certification": "TV-PG",
+    "network": "ABC (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.agentsofshield.com/",
+    "status": "returning series",
+    "rating": 7.84605,
+    "votes": 12530,
+    "updated_at": "2016-09-24T13:50:11.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "lt",
+      "ml",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "science-fiction"
+    ],
+    "aired_episodes": 67,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/fanarts/medium/2cc61c8eea.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/394/fanarts/medium/2cc61c8eea.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/394/fanarts/thumb/2cc61c8eea.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/posters/medium/c4a4211e12.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/394/posters/medium/c4a4211e12.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/394/posters/thumb/c4a4211e12.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/logos/original/2203dce644.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/cleararts/original/a384583c46.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/banners/original/e5abcfc0f9.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/thumbs/original/e0effa907b.jpg"
+      }
+    }
+  },
+  {
+    "title": "Community",
+    "year": 2009,
+    "ids": {
+      "trakt": 18265,
+      "slug": "community",
+      "tvdb": 94571,
+      "imdb": "tt1439629",
+      "tmdb": 18347,
+      "tvrage": 22589
+    },
+    "overview": "From Emmy Award-winner Dan Harmon comes \"Community\", a smart comedy series about higher education – and lower expectations. The student body at Greendale Community College is made up of high-school losers, newly divorced housewives, and old people who want to keep their minds active. Within these not-so-hallowed halls, Community focuses on a band of misfits, at the center of which is a fast-talking lawyer whose degree was found to be fake, who form a study group and end up learning a lot more about themselves than they do about their course work.",
+    "first_aired": "2009-09-17T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "03:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 25,
+    "certification": "TV-PG",
+    "network": "Yahoo! Screen",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.nbc.com/community-show/",
+    "status": "ended",
+    "rating": 8.59959,
+    "votes": 11753,
+    "updated_at": "2016-09-24T14:10:06.000Z",
+    "language": "en",
+    "available_translations": [
+      "bs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "zh"
+    ],
+    "genres": [
+      "comedy"
+    ],
+    "aired_episodes": 110,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/fanarts/medium/9c0a79d9e6.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/018/265/fanarts/medium/9c0a79d9e6.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/018/265/fanarts/thumb/9c0a79d9e6.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/posters/medium/45b7f2b304.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/018/265/posters/medium/45b7f2b304.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/018/265/posters/thumb/45b7f2b304.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/logos/original/e38df5d341.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/cleararts/original/3511d8ea93.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/banners/original/029a77d046.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/thumbs/original/a664fe8b47.jpg"
+      }
+    }
+  },
+  {
+    "title": "American Horror Story",
+    "year": 2011,
+    "ids": {
+      "trakt": 1404,
+      "slug": "american-horror-story",
+      "tvdb": 250487,
+      "imdb": "tt1844624",
+      "tmdb": 1413,
+      "tvrage": 28776
+    },
+    "overview": "American Horror Story is a horror-drama television franchise created and produced by Ryan Murphy and Brad Falchuk. Described as an anthology series, each season is conceived as a self-contained miniseries, following a disparate set of characters and settings, and a storyline with its own \"beginning, middle and end.\"  ",
+    "first_aired": "2011-10-05T07:00:00.000Z",
+    "airs": {
+      "day": "Wednesday",
+      "time": "22:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-MA",
+    "network": "FX (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.fxnetworks.com/shows/american-horror-story/",
+    "status": "returning series",
+    "rating": 8.21658,
+    "votes": 11954,
+    "updated_at": "2016-09-24T15:59:30.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "lb",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "horror",
+      "mystery"
+    ],
+    "aired_episodes": 65,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/fanarts/medium/49caad0936.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/404/fanarts/medium/49caad0936.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/404/fanarts/thumb/49caad0936.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/posters/medium/55f60b3986.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/404/posters/medium/55f60b3986.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/404/posters/thumb/55f60b3986.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/logos/original/f9f27fab6d.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/cleararts/original/95dcc932d5.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/banners/original/eb63ff4e13.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/404/thumbs/original/2ff13d320e.jpg"
+      }
+    }
+  },
+  {
+    "title": "True Blood",
+    "year": 2008,
+    "ids": {
+      "trakt": 10494,
+      "slug": "true-blood",
+      "tvdb": 82283,
+      "imdb": "tt0844441",
+      "tmdb": 10545,
+      "tvrage": 12662
+    },
+    "overview": "True Blood is based on The Southern Vampire Mysteries series of novels by Charlaine Harris, detailing the co-existence of vampires and humans in Bon Temps, a fictional, small town in northwestern Louisiana. The series centers on the adventures of Sookie Stackhouse (Anna Paquin), a telepathic waitress with an otherworldly quality.",
+    "first_aired": "2008-09-08T01:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 52,
+    "certification": "TV-MA",
+    "network": "HBO",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=hE8wwYzKJOs",
+    "homepage": "http://www.hbo.com/trueblood/",
+    "status": "ended",
+    "rating": 7.9517,
+    "votes": 12112,
+    "updated_at": "2016-09-24T11:21:14.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "aired_episodes": 80,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/fanarts/medium/9bd70c73ef.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/010/494/fanarts/medium/9bd70c73ef.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/010/494/fanarts/thumb/9bd70c73ef.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/posters/medium/c32f10af20.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/010/494/posters/medium/c32f10af20.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/010/494/posters/thumb/c32f10af20.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/logos/original/26f1ccfa15.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/cleararts/original/0e98705601.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/banners/original/8f12b33da7.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/010/494/thumbs/original/e0b590175a.jpg"
+      }
+    }
+  },
+  {
+    "title": "Person of Interest",
+    "year": 2011,
+    "ids": {
+      "trakt": 1402,
+      "slug": "person-of-interest",
+      "tvdb": 248742,
+      "imdb": "tt1839578",
+      "tmdb": 1411,
+      "tvrage": 28376
+    },
+    "overview": "John Reese, a presumed dead former CIA agent who is approached by a mysterious billionaire named Harold Finch to prevent violent crimes before they happen by using an advanced surveillance system dubbed \"The Machine\". Their unique brand of vigilante justice attracts the attention of two NYPD officers, Joss Carter and Lionel Fusco, whom Reese uses to his advantage as he investigates persons of interest. Reese and Finch are later aided by Samantha \"Root\" Groves , a highly intelligent computer hacker and contract killer who the Machine later identifies as its \"analog interface\" and Sameen Shaw, a former ISA assassin who unknowingly dealt with the \"relevant\" numbers found by the Machine.",
+    "first_aired": "2011-09-22T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "22:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "CBS",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=68xN_BNYhc4",
+    "homepage": "http://www.cbs.com/shows/person_of_interest/",
+    "status": "ended",
+    "rating": 8.47681,
+    "votes": 11707,
+    "updated_at": "2016-09-24T11:41:10.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "lb",
+      "lt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "th",
+      "tr",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller",
+      "action",
+      "adventure"
+    ],
+    "aired_episodes": 103,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/fanarts/medium/fee6c0f90f.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/402/fanarts/medium/fee6c0f90f.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/402/fanarts/thumb/fee6c0f90f.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/posters/medium/30a092b479.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/402/posters/medium/30a092b479.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/402/posters/thumb/30a092b479.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/logos/original/7a6189fc71.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/cleararts/original/4c583176a7.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/banners/original/50fb8155bd.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/402/thumbs/original/dfd04fe739.jpg"
+      }
+    }
+  },
+  {
+    "title": "The Flash",
+    "year": 2014,
+    "ids": {
+      "trakt": 60300,
+      "slug": "the-flash-2014",
+      "tvdb": 279121,
+      "imdb": "tt3107288",
+      "tmdb": 60735,
+      "tvrage": 36939
+    },
+    "overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion – and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become... The Flash.",
+    "first_aired": "2014-10-07T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "The CW",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=fMvQmMCcskM",
+    "homepage": "http://www.cwtv.com/shows/the-flash/",
+    "status": "returning series",
+    "rating": 8.32169,
+    "votes": 11250,
+    "updated_at": "2016-09-24T11:52:46.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "lb",
+      "lt",
+      "ml",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "sv",
+      "te",
+      "th",
+      "tr",
+      "uk",
+      "vi",
+      "za",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "fantasy",
+      "science-fiction",
+      "action",
+      "adventure"
+    ],
+    "aired_episodes": 46,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/fanarts/medium/df36c9a731.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/060/300/fanarts/medium/df36c9a731.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/060/300/fanarts/thumb/df36c9a731.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/posters/medium/79bd96a4d3.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/060/300/posters/medium/79bd96a4d3.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/060/300/posters/thumb/79bd96a4d3.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/logos/original/ab151d1043.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/cleararts/original/660e6efe67.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/banners/original/b2c305a2dc.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/060/300/thumbs/original/eab955a39c.jpg"
+      }
+    }
+  },
+  {
+    "title": "Firefly",
+    "year": 2002,
+    "ids": {
+      "trakt": 1428,
+      "slug": "firefly",
+      "tvdb": 78874,
+      "imdb": "tt0303461",
+      "tmdb": 1437,
+      "tvrage": 3548
+    },
+    "overview": "In the far-distant future, Captain Malcolm \"Mal\" Reynolds is a renegade former brown-coat sergeant, now turned smuggler & rogue, who is the commander of a small spacecraft, with a loyal hand-picked crew made up of the first mate, Zoe Warren; the pilot Hoban \"Wash\" Washburn; the gung-ho grunt Jayne Cobb; the engineer Kaylee Frye; the fugitives Dr. Simon Tam and his psychic sister River. Together, they travel the far reaches of space in search of food, money, and anything to live on.",
+    "first_aired": "2002-09-20T07:00:00.000Z",
+    "airs": {
+      "day": null,
+      "time": null,
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-14",
+    "network": "FOX (US)",
+    "country": "us",
+    "trailer": null,
+    "homepage": null,
+    "status": "ended",
+    "rating": 9.26456,
+    "votes": 10629,
+    "updated_at": "2016-09-24T10:39:13.000Z",
+    "language": "en",
+    "available_translations": [
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "it",
+      "ko",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "science-fiction",
+      "adventure",
+      "western",
+      "action",
+      "fantasy"
+    ],
+    "aired_episodes": 14,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/fanarts/medium/f07e226271.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/428/fanarts/medium/f07e226271.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/428/fanarts/thumb/f07e226271.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/posters/medium/fa1278e235.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/428/posters/medium/fa1278e235.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/428/posters/thumb/fa1278e235.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/logos/original/36203fa7c3.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/cleararts/original/b1926f7752.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/banners/original/c1e153ac03.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/428/thumbs/original/a33cdc2a74.jpg"
+      }
+    }
+  },
+  {
+    "title": "Once Upon a Time",
+    "year": 2011,
+    "ids": {
+      "trakt": 39108,
+      "slug": "once-upon-a-time",
+      "tvdb": 248835,
+      "imdb": "tt1843230",
+      "tmdb": 39272,
+      "tvrage": 28385
+    },
+    "overview": "Emma Swan, a 28-year-old bail bonds collector, has always been a fiercely independent person since being abandoned as a baby. Her son Henry, who she gave up for adoption years ago, finds and tries to convince Emma that she is Snow White's missing daughter. Henry shows Emma that in the fairytale, Prince Charming and Snow White sent her away to protect her. Emma doesn't believe him and takes Henry back to Storybrooke...",
+    "first_aired": "2011-10-24T00:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "20:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 40,
+    "certification": "TV-PG",
+    "network": "ABC (US)",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=Rga4rp4j5TY",
+    "homepage": "http://abc.go.com/shows/once-upon-a-time",
+    "status": "returning series",
+    "rating": 7.93273,
+    "votes": 11417,
+    "updated_at": "2016-09-22T10:34:50.000Z",
+    "language": "en",
+    "available_translations": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "he",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ko",
+      "lb",
+      "lt",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "mystery",
+      "fantasy",
+      "adventure",
+      "romance"
+    ],
+    "aired_episodes": 112,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/fanarts/medium/c98fca0aa0.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/039/108/fanarts/medium/c98fca0aa0.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/039/108/fanarts/thumb/c98fca0aa0.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/posters/medium/f31c9e18df.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/039/108/posters/medium/f31c9e18df.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/039/108/posters/thumb/f31c9e18df.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/logos/original/dca3c77e6d.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/cleararts/original/b7871c51fa.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/banners/original/c591159a86.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/039/108/thumbs/original/e92bf23e88.jpg"
+      }
+    }
+  },
+  {
+    "title": "Vikings",
+    "year": 2013,
+    "ids": {
+      "trakt": 43973,
+      "slug": "vikings",
+      "tvdb": 260449,
+      "imdb": "tt2306299",
+      "tmdb": 44217,
+      "tvrage": 31136
+    },
+    "overview": "Vikings follows the adventures of Ragnar Lothbrok the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods, legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+    "first_aired": "2013-03-04T02:00:00.000Z",
+    "airs": {
+      "day": "Wednesday",
+      "time": "21:00",
+      "timezone": "America/Toronto"
+    },
+    "runtime": 44,
+    "certification": "TV-14",
+    "network": "History",
+    "country": "ca",
+    "trailer": "http://youtube.com/watch?v=5aASH8HMJbo",
+    "homepage": "http://www.history.com/shows/vikings",
+    "status": "returning series",
+    "rating": 8.61701,
+    "votes": 10726,
+    "updated_at": "2016-09-24T11:32:34.000Z",
+    "language": "en",
+    "available_translations": [
+      "ar",
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hu",
+      "id",
+      "it",
+      "km",
+      "ko",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "zh"
+    ],
+    "genres": [
+      "drama",
+      "action",
+      "adventure"
+    ],
+    "aired_episodes": 39,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/fanarts/medium/eb3a126015.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/043/973/fanarts/medium/eb3a126015.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/043/973/fanarts/thumb/eb3a126015.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/posters/medium/735e733dbc.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/043/973/posters/medium/735e733dbc.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/043/973/posters/thumb/735e733dbc.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/logos/original/b14dc4892f.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/cleararts/original/653549d676.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/banners/original/762db657b7.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/043/973/thumbs/original/6d10fd730b.jpg"
+      }
+    }
+  }
+]
