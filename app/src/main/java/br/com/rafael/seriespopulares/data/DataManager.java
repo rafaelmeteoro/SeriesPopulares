@@ -23,10 +23,10 @@ public class DataManager {
         mApiProvider = apiProvider;
     }
 
-    public Observable<List<Show>> getShows() {
+    public Observable<List<Show>> getShows(int page, int limit, String extended) {
         return mApiProvider
                 .getPopularShowsService()
-                .getShows(1, 10, "images,full")
+                .getShows(page, limit, extended)
                 .compose(new WorkerOperator<List<Show>>());
     }
 }

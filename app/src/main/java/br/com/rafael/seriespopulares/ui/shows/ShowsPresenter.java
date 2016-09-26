@@ -16,6 +16,9 @@ import timber.log.Timber;
 
 public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implements ShowsContract.Presenter {
 
+    private static final int LIMIT = 30;
+    private static final String EXTENDED = "images,full";
+
     protected DataManager mDataManager;
 
     @Inject
@@ -24,12 +27,12 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
     }
 
     @Override
-    public void getShows() {
+    public void getShows(final int page) {
         checkViewAttached();
         getMvpView().showProgress();
 
         unsubscribe();
-        mSubscription = mDataManager.getShows()
+        mSubscription = mDataManager.getShows(page, LIMIT, EXTENDED)
                 .subscribe(new Subscriber<List<Show>>() {
                     @Override
                     public void onCompleted() {
@@ -45,10 +48,12 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
 
                     @Override
                     public void onNext(List<Show> shows) {
-                        if (shows != null && !shows.isEmpty()) {
-                            getMvpView().showShows(shows);
-                        } else {
+                        if (shows != null && shows.isEmpty() && page == ShowsActivity.FIRST_PAGE) {
                             getMvpView().showEmpty();
+                        } else if (shows != null && !shows.isEmpty() && page == ShowsActivity.FIRST_PAGE) {
+                            getMvpView().setData(shows);
+                        } else {
+                            getMvpView().addData(shows);
                         }
                     }
                 });

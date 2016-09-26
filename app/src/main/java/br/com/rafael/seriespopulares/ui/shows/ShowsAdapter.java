@@ -71,6 +71,10 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         mList = list;
     }
 
+    public void addList(List<Show> list) {
+        mList.addAll(list);
+    }
+
     protected class ItemShowsViewHolder extends RecyclerView.ViewHolder {
 
         @Bind(R.id.tv_title)

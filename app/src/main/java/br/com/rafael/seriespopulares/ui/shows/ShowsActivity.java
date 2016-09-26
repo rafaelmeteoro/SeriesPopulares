@@ -16,6 +16,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import br.com.rafael.seriespopulares.R;
+import br.com.rafael.seriespopulares.custom.EndlessRecyclerOnScrollListener;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.injection.component.ActivityComponent;
 import br.com.rafael.seriespopulares.ui.base.BaseMvpActivity;
@@ -56,6 +57,10 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     @Bind(R.id.error_view)
     protected TextView mErrorView;
 
+    private EndlessRecyclerOnScrollListener mEndlessListener;
+
+    public static final int FIRST_PAGE = 1;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,7 +71,7 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
         setSupportActionBar(mToolbar);
         setupViews();
 
-        mPresenter.getShows();
+        mPresenter.getShows(FIRST_PAGE);
     }
 
     /**
@@ -96,7 +101,17 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     private void setupViews() {
         mContentView.setEnabled(false);
 
-        mRecyclerView.setLayoutManager(new GridLayoutManager(this, numColumn()));
+        GridLayoutManager layoutManager = new GridLayoutManager(this, numColumn());
+        mRecyclerView.setLayoutManager(layoutManager);
+
+        mEndlessListener = new EndlessRecyclerOnScrollListener(layoutManager) {
+            @Override
+            public void onLoadMore(int currentPage) {
+                mPresenter.getShows(currentPage);
+            }
+        };
+        mRecyclerView.addOnScrollListener(mEndlessListener);
+
         mRecyclerView.setAdapter(mAdapter);
     }
 
@@ -128,10 +143,17 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     @Override
-    public void showShows(List<Show> shows) {
+    public void setData(List<Show> shows) {
         mAdapter.setList(shows);
         mAdapter.notifyDataSetChanged();
         mRecyclerView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void addData(List<Show> shows) {
+        mAdapter.addList(shows);
+        int positionStartInserted = mAdapter.getItemCount();
+        mAdapter.notifyItemRangeInserted(positionStartInserted, shows.size());
     }
 
     @Override

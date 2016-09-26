@@ -16,7 +16,9 @@ public interface ShowsContract {
 
         void hideProgress();
 
-        void showShows(List<Show> shows);
+        void setData(List<Show> shows);
+
+        void addData(List<Show> shows);
 
         void showEmpty();
 
@@ -24,6 +26,6 @@ public interface ShowsContract {
     }
 
     interface Presenter {
-        void getShows();
+        void getShows(int page);
     }
 }
