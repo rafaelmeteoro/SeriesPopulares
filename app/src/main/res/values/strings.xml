@@ -6,6 +6,10 @@
     <!-- View Empty -->
     <string name="view_empty_text">Lista Vazia</string>
 
+    <!-- Shows Favorite -->
+    <string name="favorite_shows_unfavorite_failed">Falha ao desfavoritar</string>
+    <string name="favorite_shows_success">Serie favoritada</string>
+
     <!-- Layout Item Shows -->
     <string name="layout_item_show_year_format">Ano: %d</string>
     <string name="layout_item_show_rating_format">Nota: %.2f</string>

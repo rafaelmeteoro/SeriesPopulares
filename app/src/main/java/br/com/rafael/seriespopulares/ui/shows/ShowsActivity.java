@@ -3,6 +3,7 @@ package br.com.rafael.seriespopulares.ui.shows;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -142,8 +143,8 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     @Override
-    public void onFavoriteClick(Show show) {
-        mPresenter.favoriteShow(show);
+    public void onFavoriteClick(Show show, int position) {
+        mPresenter.favoriteShow(show, position);
     }
 
     @Override
@@ -177,6 +178,12 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     @Override
+    public void updateData(Show show, int position) {
+        mAdapter.update(show, position);
+        mAdapter.notifyItemChanged(position);
+    }
+
+    @Override
     public void showEmpty() {
         mRecyclerView.setVisibility(View.GONE);
         mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_empty_glass_gray, 0, 0);
@@ -190,5 +197,11 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
         mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_sentiment_very_dissatisfied_gray, 0, 0);
         mErrorView.setText(R.string.view_erro_text);
         mErrorView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void showMessage(int resId) {
+        Snackbar snackbar = Snackbar.make(mContentView, resId, Snackbar.LENGTH_LONG);
+        snackbar.show();
     }
 }

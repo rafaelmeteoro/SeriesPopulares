@@ -66,4 +66,22 @@ public class RealmHelper {
             return null;
         }
     }
+
+    /**
+     * Deleta um objeto do Realm.
+     *
+     * @param object
+     * @return true se objeto deletado, false caso contrário
+     * */
+    public static boolean delete(RealmObject object) {
+        try {
+            beginTransaction();
+            object.deleteFromRealm();
+            commitTransaction();
+            return true;
+        } catch (Exception e) {
+            Timber.e(e, "Erro ao deletar objeto");
+            return false;
+        }
+    }
 }

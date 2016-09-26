@@ -86,4 +86,36 @@ public class DataManager {
         return Observable.just(mShowFavoriteDao.saveShowFavorite(show))
                 .compose(new WorkerOperator<Boolean>());
     }
+
+    public Observable<Show> favoriteOrUnfavoriteShow(Show show) {
+        if (show.isFavorite()) {
+            return unfavoriteShow(show)
+                    .compose(new WorkerOperator<Show>());
+        } else {
+            return favoriteShow(show)
+                    .compose(new WorkerOperator<Show>());
+        }
+    }
+
+    private Observable<Show> unfavoriteShow(final Show show) {
+        return Observable.just(mShowFavoriteDao.deleteFavorit(show))
+                .map(new Func1<Boolean, Show>() {
+                    @Override
+                    public Show call(Boolean value) {
+                        show.setFavorite(!value);
+                        return show;
+                    }
+                });
+    }
+
+    private Observable<Show> favoriteShow(final Show show) {
+        return Observable.just(mShowFavoriteDao.saveShowFavorite(show))
+                .map(new Func1<Boolean, Show>() {
+                    @Override
+                    public Show call(Boolean value) {
+                        show.setFavorite(value);
+                        return show;
+                    }
+                });
+    }
 }

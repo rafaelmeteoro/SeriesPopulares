@@ -38,4 +38,15 @@ public class ShowFavoriteDao {
             RealmHelper.closeRealm();
         }
     }
+
+    public boolean deleteFavorit(Show show) {
+        try {
+            RealmHelper.instanceRealm();
+            ShowFavorite showFavorite =
+                    (ShowFavorite) RealmHelper.findFirstByField(ShowFavorite.class, "trakt", show.getIds().getTrakt());
+            return RealmHelper.delete(showFavorite);
+        } finally {
+            RealmHelper.closeRealm();
+        }
+    }
 }

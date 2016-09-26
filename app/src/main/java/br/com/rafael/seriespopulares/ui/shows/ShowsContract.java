@@ -20,14 +20,18 @@ public interface ShowsContract {
 
         void addData(List<Show> shows);
 
+        void updateData(Show show, int position);
+
         void showEmpty();
 
         void showError();
+
+        void showMessage(int resId);
     }
 
     interface Presenter {
         void getShows(int page);
 
-        void favoriteShow(Show show);
+        void favoriteShow(Show show, int position);
     }
 }

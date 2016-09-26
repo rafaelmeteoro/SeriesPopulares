@@ -33,7 +33,7 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     public interface ShowsItemClickListener {
         void onShowClick(Show show);
-        void onFavoriteClick(Show show);
+        void onFavoriteClick(Show show, int position);
     }
 
     @Inject
@@ -88,7 +88,8 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             if (v.getId() == R.id.ll_item) {
                 mListener.onShowClick(mList.get(holder.getAdapterPosition()));
             } else if (v.getId() == R.id.ib_heart) {
-                mListener.onFavoriteClick(mList.get(holder.getAdapterPosition()));
+                int position = holder.getAdapterPosition();
+                mListener.onFavoriteClick(mList.get(position), position);
             }
         }
     }
@@ -99,6 +100,10 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     public void addList(List<Show> list) {
         mList.addAll(list);
+    }
+
+    public void update(Show show, int position) {
+        mList.set(position, show);
     }
 
     public void setListener(ShowsItemClickListener listener) {

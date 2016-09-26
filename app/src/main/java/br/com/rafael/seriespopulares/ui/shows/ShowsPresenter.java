@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import br.com.rafael.seriespopulares.R;
 import br.com.rafael.seriespopulares.data.DataManager;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.ui.base.BaseRxPresenter;
@@ -60,12 +61,12 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
     }
 
     @Override
-    public void favoriteShow(Show show) {
+    public void favoriteShow(Show show, final int position) {
         checkViewAttached();
 
         unsubscribe();
-        mSubscription = mDataManager.saveShowFavorite(show)
-                .subscribe(new Subscriber<Boolean>() {
+        mSubscription = mDataManager.favoriteOrUnfavoriteShow(show)
+                .subscribe(new Subscriber<Show>() {
                     @Override
                     public void onCompleted() {
 
@@ -73,12 +74,15 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
 
                     @Override
                     public void onError(Throwable e) {
-                        String b = "";
+                        getMvpView().showMessage(R.string.favorite_shows_unfavorite_failed);
                     }
 
                     @Override
-                    public void onNext(Boolean aBoolean) {
-                        String b = "";
+                    public void onNext(Show show) {
+                        getMvpView().updateData(show, position);
+                        if (show.isFavorite()) {
+                            getMvpView().showMessage(R.string.favorite_shows_success);
+                        }
                     }
                 });
     }
