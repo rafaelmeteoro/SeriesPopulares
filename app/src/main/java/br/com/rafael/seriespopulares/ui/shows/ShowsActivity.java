@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -20,15 +21,17 @@ import br.com.rafael.seriespopulares.custom.EndlessRecyclerOnScrollListener;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.injection.component.ActivityComponent;
 import br.com.rafael.seriespopulares.ui.base.BaseMvpActivity;
+import br.com.rafael.seriespopulares.ui.details.DetailsActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import timber.log.Timber;
 
 /**
  * Created by rafael on 9/25/16.
  **/
 
-public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View {
+public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View, ShowsAdapter.ShowsItemClickListener {
 
     // Quantidade de colunas do grid
     private static final int COLUMN_TWO = 2;
@@ -99,6 +102,7 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     private void setupViews() {
+        mAdapter.setListener(this);
         mContentView.setEnabled(false);
 
         GridLayoutManager layoutManager = new GridLayoutManager(this, numColumn());
@@ -124,6 +128,17 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     @Override
     protected void inject(ActivityComponent activityComponent) {
         activityComponent.inject(this);
+    }
+
+    @OnClick(R.id.error_view)
+    public void onReloadClick() {
+        mEndlessListener.reset();
+        mPresenter.getShows(FIRST_PAGE);
+    }
+
+    @Override
+    public void onShowClick(Show show) {
+        startActivity(DetailsActivity.getStartIntent(this, show));
     }
 
     @Override

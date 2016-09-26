@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
@@ -24,9 +25,14 @@ import butterknife.ButterKnife;
  * Created by rafael on 9/25/16.
  **/
 
-public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
 
     private List<Show> mList;
+    private ShowsItemClickListener mListener;
+
+    public interface ShowsItemClickListener {
+        void onShowClick(Show show);
+    }
 
     @Inject
     public ShowsAdapter() {
@@ -36,7 +42,9 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_item_shows, parent, false);
-        return new ItemShowsViewHolder(view);
+        ItemShowsViewHolder holder = new ItemShowsViewHolder(view);
+        holder.llItem.setOnClickListener(this);
+        return holder;
     }
 
     @Override
@@ -54,6 +62,7 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         holder.tvRating.setText(context.getString(
                 R.string.layout_item_show_rating_format,
                 show.getRating()));
+        holder.llItem.setTag(holder);
 
         Picasso.with(context)
                 .load(show.getImages().getFanart().getThumb())
@@ -67,6 +76,14 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         return mList != null ? mList.size() : 0;
     }
 
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.ll_item && mListener != null) {
+            ItemShowsViewHolder holder = (ItemShowsViewHolder) v.getTag();
+            mListener.onShowClick(mList.get(holder.getAdapterPosition()));
+        }
+    }
+
     public void setList(List<Show> list) {
         mList = list;
     }
@@ -75,7 +92,14 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         mList.addAll(list);
     }
 
+    public void setListener(ShowsItemClickListener listener) {
+        mListener = listener;
+    }
+
     protected class ItemShowsViewHolder extends RecyclerView.ViewHolder {
+
+        @Bind(R.id.ll_item)
+        LinearLayout llItem;
 
         @Bind(R.id.tv_title)
         TextView tvTitle;
