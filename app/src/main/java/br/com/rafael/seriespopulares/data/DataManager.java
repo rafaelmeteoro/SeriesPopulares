@@ -5,6 +5,7 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
+import br.com.rafael.seriespopulares.data.local.ShowFavoriteDao;
 import br.com.rafael.seriespopulares.data.model.Episode;
 import br.com.rafael.seriespopulares.data.model.Season;
 import br.com.rafael.seriespopulares.data.model.Show;
@@ -12,6 +13,7 @@ import br.com.rafael.seriespopulares.data.operator.WorkerOperator;
 import br.com.rafael.seriespopulares.data.remote.ApiProvider;
 import rx.Observable;
 import rx.functions.Func1;
+import timber.log.Timber;
 
 /**
  * Created by rafael on 9/25/16.
@@ -20,16 +22,29 @@ import rx.functions.Func1;
 public class DataManager {
 
     private final ApiProvider mApiProvider;
+    private final ShowFavoriteDao mShowFavoriteDao;
 
     @Inject
-    public DataManager(ApiProvider apiProvider) {
+    public DataManager(ApiProvider apiProvider, ShowFavoriteDao showFavoriteDao) {
         mApiProvider = apiProvider;
+        mShowFavoriteDao = showFavoriteDao;
     }
 
     public Observable<List<Show>> getShows(int page, int limit, String extended) {
         return mApiProvider
                 .getPopularShowsService()
                 .getShows(page, limit, extended)
+                .map(new Func1<List<Show>, List<Show>>() {
+                    @Override
+                    public List<Show> call(List<Show> shows) {
+                        if (shows != null) {
+                            for (Show show : shows) {
+                                show.setFavorite(mShowFavoriteDao.isFavorited(show));
+                            }
+                        }
+                        return shows;
+                    }
+                })
                 .compose(new WorkerOperator<List<Show>>());
     }
 
@@ -65,5 +80,10 @@ public class DataManager {
             builder.append("\n");
         }
         return builder.toString();
+    }
+
+    public Observable<Boolean> saveShowFavorite(Show show) {
+        return Observable.just(mShowFavoriteDao.saveShowFavorite(show))
+                .compose(new WorkerOperator<Boolean>());
     }
 }

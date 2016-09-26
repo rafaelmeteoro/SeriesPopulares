@@ -62,5 +62,24 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
     @Override
     public void favoriteShow(Show show) {
         checkViewAttached();
+
+        unsubscribe();
+        mSubscription = mDataManager.saveShowFavorite(show)
+                .subscribe(new Subscriber<Boolean>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        String b = "";
+                    }
+
+                    @Override
+                    public void onNext(Boolean aBoolean) {
+                        String b = "";
+                    }
+                });
     }
 }
