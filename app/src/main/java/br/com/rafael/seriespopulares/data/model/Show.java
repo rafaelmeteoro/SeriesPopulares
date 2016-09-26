@@ -23,6 +23,8 @@ public class Show implements Parcelable {
     private static final String GENRES = "genres";
     private static final String IMAGES = "images";
 
+    private boolean favorite;
+
     @SerializedName(YEAR)
     private int year;
 
@@ -43,6 +45,14 @@ public class Show implements Parcelable {
 
     @SerializedName(GENRES)
     private List<String> genres;
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
+    }
 
     public int getYear() {
         return year;
@@ -85,6 +95,7 @@ public class Show implements Parcelable {
     }
 
     protected Show(Parcel in) {
+        this.favorite = in.readInt() == 1;
         this.year = in.readInt();
         this.title = in.readString();
         this.overview = in.readString();
@@ -102,6 +113,7 @@ public class Show implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(favorite ? 1 : 0);
         dest.writeInt(year);
         dest.writeString(title);
         dest.writeString(overview);

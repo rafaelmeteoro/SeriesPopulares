@@ -16,6 +16,7 @@
     <dimen name="layout_item_shows_title_text_size">16sp</dimen>
     <dimen name="layout_item_shows_year_margin_top">10dp</dimen>
     <dimen name="layout_item_shows_padding_left_right">10dp</dimen>
+    <dimen name="layout_item_shows_padding_heart">10dp</dimen>
 
     <!-- Activity Details -->
     <dimen name="activity_details_collapse_height">220dp</dimen>

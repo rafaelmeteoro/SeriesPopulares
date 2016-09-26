@@ -142,6 +142,11 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     @Override
+    public void onFavoriteClick(Show show) {
+        mPresenter.favoriteShow(show);
+    }
+
+    @Override
     public void showProgress() {
         if (mRecyclerView.getVisibility() == View.VISIBLE && mAdapter.getItemCount() > 0) {
             mContentView.setRefreshing(true);

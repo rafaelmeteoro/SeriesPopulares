@@ -33,12 +33,24 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/iv_show"
                 android:background="@color/bg_image_transparent"
-                android:padding="@dimen/layout_item_shows_title_padding"
                 android:gravity="center"
+                android:padding="@dimen/layout_item_shows_title_padding"
                 android:text="@string/layout_item_shows_title_label"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/layout_item_shows_title_text_size"
                 android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ib_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@null"
+                android:padding="@dimen/layout_item_shows_padding_heart"
+                android:src="@drawable/ic_heart_outline" />
 
         </RelativeLayout>
 

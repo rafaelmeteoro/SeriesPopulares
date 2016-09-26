@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -32,6 +33,7 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     public interface ShowsItemClickListener {
         void onShowClick(Show show);
+        void onFavoriteClick(Show show);
     }
 
     @Inject
@@ -44,6 +46,7 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_item_shows, parent, false);
         ItemShowsViewHolder holder = new ItemShowsViewHolder(view);
         holder.llItem.setOnClickListener(this);
+        holder.ibHeart.setOnClickListener(this);
         return holder;
     }
 
@@ -62,7 +65,9 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         holder.tvRating.setText(context.getString(
                 R.string.layout_item_show_rating_format,
                 show.getRating()));
+        holder.ibHeart.setImageResource(show.isFavorite() ? R.drawable.ic_heart : R.drawable.ic_heart_outline);
         holder.llItem.setTag(holder);
+        holder.ibHeart.setTag(holder);
 
         Picasso.with(context)
                 .load(show.getImages().getFanart().getThumb())
@@ -78,9 +83,13 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.ll_item && mListener != null) {
+        if (mListener != null) {
             ItemShowsViewHolder holder = (ItemShowsViewHolder) v.getTag();
-            mListener.onShowClick(mList.get(holder.getAdapterPosition()));
+            if (v.getId() == R.id.ll_item) {
+                mListener.onShowClick(mList.get(holder.getAdapterPosition()));
+            } else if (v.getId() == R.id.ib_heart) {
+                mListener.onFavoriteClick(mList.get(holder.getAdapterPosition()));
+            }
         }
     }
 
@@ -112,6 +121,9 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
         @Bind(R.id.iv_show)
         ImageView ivShow;
+
+        @Bind(R.id.ib_heart)
+        ImageButton ibHeart;
 
         public ItemShowsViewHolder(View view) {
             super(view);

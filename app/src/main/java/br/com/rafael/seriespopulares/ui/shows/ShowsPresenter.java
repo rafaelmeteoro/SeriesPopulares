@@ -58,4 +58,9 @@ public class ShowsPresenter extends BaseRxPresenter<ShowsContract.View> implemen
                     }
                 });
     }
+
+    @Override
+    public void favoriteShow(Show show) {
+        checkViewAttached();
+    }
 }

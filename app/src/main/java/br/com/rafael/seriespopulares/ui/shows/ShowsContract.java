@@ -27,5 +27,7 @@ public interface ShowsContract {
 
     interface Presenter {
         void getShows(int page);
+
+        void favoriteShow(Show show);
     }
 }
