@@ -16,6 +16,10 @@ public class Banner implements Parcelable {
     @SerializedName(FULL)
     private String full;
 
+    public String getFull() {
+        return full;
+    }
+
     public Banner() {
 
     }

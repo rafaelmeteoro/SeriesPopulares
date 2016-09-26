@@ -24,6 +24,10 @@ public class Images implements Parcelable {
         return fanart;
     }
 
+    public Banner getBanner() {
+        return banner;
+    }
+
     public Images() {
 
     }

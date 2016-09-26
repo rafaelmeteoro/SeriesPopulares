@@ -3,6 +3,7 @@ package br.com.rafael.seriespopulares.ui.details;
 import javax.inject.Inject;
 
 import br.com.rafael.seriespopulares.data.DataManager;
+import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.ui.base.BaseRxPresenter;
 
 /**
@@ -16,5 +17,16 @@ public class DetailsPresenter extends BaseRxPresenter<DetailsContract.View> impl
     @Inject
     public DetailsPresenter(DataManager dataManager) {
         mDataManager = dataManager;
+    }
+
+    @Override
+    public void setInfoShow(Show show) {
+        checkViewAttached();
+        getMvpView().setTitle(show.getTitle());
+        getMvpView().setBanner(show.getImages().getBanner().getFull());
+        getMvpView().setYear(show.getYear());
+        getMvpView().setRating(show.getRating());
+        getMvpView().setSinopse(show.getOverview());
+        getMvpView().setGenres(show.getGenres());
     }
 }

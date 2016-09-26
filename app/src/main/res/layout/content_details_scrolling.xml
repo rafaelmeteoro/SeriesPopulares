@@ -8,10 +8,66 @@
     tools:context=".ui.details.DetailsActivity"
     tools:showIn="@layout/activity_details">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="@string/large_text" />
+        android:orientation="vertical"
+        android:padding="@dimen/content_details_scrolling_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_details_scrolling_label_year"
+                android:textSize="@dimen/content_details_scrolling_label_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_details_scrolling_label_rating"
+                android:textSize="@dimen/content_details_scrolling_label_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_descricao_margin_top"
+            android:text="@string/content_details_scrolling_label_descricao"
+            android:textSize="@dimen/content_details_scrolling_label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sinopse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_generos_margin_top"
+            android:text="@string/content_details_scrolling_label_generos"
+            android:textSize="@dimen/content_details_scrolling_label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_generos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
+            android:textStyle="italic" />
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

@@ -5,6 +5,8 @@ import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -50,12 +52,28 @@ public class Show implements Parcelable {
         return title;
     }
 
+    public String getOverview() {
+        return overview;
+    }
+
     public double getRating() {
         return rating;
     }
 
     public Images getImages() {
         return images;
+    }
+
+    public String getGenres() {
+        StringBuilder builder = new StringBuilder();
+        Iterator<String> iterator = genres.iterator();
+        while (iterator.hasNext()) {
+            builder.append(iterator.next());
+            if (iterator.hasNext()) {
+                builder.append(", ");
+            }
+        }
+        return builder.toString();
     }
 
     public Show() {
@@ -69,6 +87,7 @@ public class Show implements Parcelable {
         this.rating = in.readDouble();
         this.ids = in.readParcelable(Ids.class.getClassLoader());
         this.images = in.readParcelable(Images.class.getClassLoader());
+        genres = new ArrayList<>();
         in.readStringList(this.genres);
     }
 
