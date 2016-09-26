@@ -45,6 +45,9 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
     @Bind(R.id.tv_generos)
     protected TextView tvGeneros;
 
+    @Bind(R.id.tv_episodes)
+    protected TextView tvEpisodes;
+
     private Show mShow;
 
     @Inject
@@ -67,6 +70,7 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
 
         mShow = getIntent().getParcelableExtra(EXTRA_SHOW);
         mPresenter.setInfoShow(mShow);
+        mPresenter.getSeasons(mShow);
     }
 
     @Override
@@ -112,5 +116,10 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
     @Override
     public void setGenres(String genres) {
         tvGeneros.setText(genres);
+    }
+
+    @Override
+    public void setEpisodes(String episodes) {
+        tvEpisodes.setText(episodes);
     }
 }

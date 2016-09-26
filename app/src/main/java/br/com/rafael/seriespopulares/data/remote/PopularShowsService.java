@@ -2,8 +2,10 @@ package br.com.rafael.seriespopulares.data.remote;
 
 import java.util.List;
 
+import br.com.rafael.seriespopulares.data.model.Season;
 import br.com.rafael.seriespopulares.data.model.Show;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
 
@@ -17,6 +19,12 @@ public interface PopularShowsService {
     Observable<List<Show>> getShows(
             @Query("page") int page,
             @Query("limit") int limit,
+            @Query("extended") String extended
+    );
+
+    @GET("shows/{id}/seasons")
+    Observable<List<Season>> getSeasons(
+            @Path("id") int id,
             @Query("extended") String extended
     );
 }

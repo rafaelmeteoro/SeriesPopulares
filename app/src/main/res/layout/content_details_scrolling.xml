@@ -68,6 +68,20 @@
             android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
             android:textStyle="italic" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Episódios"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_episodes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top" />
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

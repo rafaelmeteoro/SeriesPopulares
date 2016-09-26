@@ -60,6 +60,10 @@ public class Show implements Parcelable {
         return rating;
     }
 
+    public Ids getIds() {
+        return ids;
+    }
+
     public Images getImages() {
         return images;
     }

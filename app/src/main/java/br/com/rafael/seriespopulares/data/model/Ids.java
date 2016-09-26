@@ -36,6 +36,10 @@ public class Ids implements Parcelable {
     @SerializedName(IMDB)
     private String imdb;
 
+    public int getTrakt() {
+        return trakt;
+    }
+
     public Ids() {
 
     }
