@@ -50,10 +50,6 @@ public class Show implements Parcelable {
         return favorite;
     }
 
-    public void setFavorite(boolean favorite) {
-        this.favorite = favorite;
-    }
-
     public int getYear() {
         return year;
     }
@@ -76,6 +72,38 @@ public class Show implements Parcelable {
 
     public Images getImages() {
         return images;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setOverview(String overview) {
+        this.overview = overview;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+
+    public void setIds(Ids ids) {
+        this.ids = ids;
+    }
+
+    public void setImages(Images images) {
+        this.images = images;
+    }
+
+    public void setGenres(List<String> genres) {
+        this.genres = genres;
     }
 
     public String getGenres() {

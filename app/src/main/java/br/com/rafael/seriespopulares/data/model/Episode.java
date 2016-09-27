@@ -36,6 +36,22 @@ public class Episode implements Parcelable {
         return title;
     }
 
+    public void setSeason(int season) {
+        this.season = season;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setIds(Ids ids) {
+        this.ids = ids;
+    }
+
     public Episode() {
 
     }

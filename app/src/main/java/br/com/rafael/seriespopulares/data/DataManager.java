@@ -64,7 +64,7 @@ public class DataManager {
                 .compose(new WorkerOperator<String>());
     }
 
-    private String formatSeasons(List<Season> seasons) {
+    public String formatSeasons(List<Season> seasons) {
         StringBuilder builder = new StringBuilder();
         for (Season season : seasons) {
             builder.append("Temporada: ").append(season.getNumber()).append("\n\n");

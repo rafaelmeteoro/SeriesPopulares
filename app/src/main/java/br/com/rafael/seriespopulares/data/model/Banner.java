@@ -20,6 +20,10 @@ public class Banner implements Parcelable {
         return full;
     }
 
+    public void setFull(String full) {
+        this.full = full;
+    }
+
     public Banner() {
 
     }

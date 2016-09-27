@@ -40,6 +40,30 @@ public class Ids implements Parcelable {
         return trakt;
     }
 
+    public void setTrakt(int trakt) {
+        this.trakt = trakt;
+    }
+
+    public void setTvdb(int tvdb) {
+        this.tvdb = tvdb;
+    }
+
+    public void setTmdb(int tmdb) {
+        this.tmdb = tmdb;
+    }
+
+    public void setTvrage(int tvrage) {
+        this.tvrage = tvrage;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public void setImdb(String imdb) {
+        this.imdb = imdb;
+    }
+
     public Ids() {
 
     }

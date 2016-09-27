@@ -20,6 +20,10 @@ public class Fanart implements Parcelable {
         return thumb;
     }
 
+    public void setThumb(String thumb) {
+        this.thumb = thumb;
+    }
+
     public Fanart() {
 
     }

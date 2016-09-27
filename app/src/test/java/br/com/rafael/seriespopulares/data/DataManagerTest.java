@@ -12,6 +12,7 @@ import java.util.List;
 
 import br.com.rafael.seriespopulares.BuildConfig;
 import br.com.rafael.seriespopulares.data.local.ShowFavoriteDao;
+import br.com.rafael.seriespopulares.data.model.Season;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.data.remote.ApiProvider;
 import br.com.rafael.seriespopulares.data.remote.PopularShowsService;
@@ -25,11 +26,11 @@ import rx.observers.TestSubscriber;
 
 import static org.mockito.Matchers.anyBoolean;
 import static org.mockito.Matchers.anyInt;
+import static org.mockito.Matchers.anyObject;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
-import static org.junit.Assert.*;
 
 /**
  * Created by rafael on 9/27/16.
@@ -87,8 +88,51 @@ public class DataManagerTest {
         testSubscriber.assertError(throwable);
     }
 
+    @Test
+    public void getSeasonsComplete() {
+        List<Season> seasons = TestDataFactory.newListSeason(10);
+        stubPopularShowsServiceGetSeasons(Observable.just(seasons));
+
+        TestSubscriber<String> testSubscriber = new TestSubscriber<>();
+        mDataManager.getSeasons(0, "").subscribe(testSubscriber);
+        testSubscriber.assertCompleted();
+        testSubscriber.assertValue(mDataManager.formatSeasons(seasons));
+    }
+
+    @Test
+    public void getSeasonsError() {
+        Throwable throwable = new RuntimeException();
+        stubPopularShowsServiceGetSeasons(Observable.<List<Season>>error(throwable));
+
+        TestSubscriber<String> testSubscriber = new TestSubscriber<>();
+        mDataManager.getSeasons(0, "").subscribe(testSubscriber);
+        testSubscriber.assertNotCompleted();
+        testSubscriber.assertError(throwable);
+    }
+
+    @Test
+    public void favoriteOrUnfavoriteComplete() {
+        Show show = TestDataFactory.newShow();
+        show.setFavorite(true);
+        stubFavoriteDao();
+
+        TestSubscriber<Show> testSubscriber = new TestSubscriber<>();
+        mDataManager.favoriteOrUnfavoriteShow(show).subscribe(testSubscriber);
+        testSubscriber.assertCompleted();
+        testSubscriber.assertValue(show);
+    }
+
     private void stubPopularShowsServiceGetShows(Observable<List<Show>> observable) {
         when(mMockApiProvider.getPopularShowsService()).thenReturn(mMockPopularShowsService);
         when(mMockPopularShowsService.getShows(anyInt(), anyInt(), anyString())).thenReturn(observable);
+    }
+
+    private void stubPopularShowsServiceGetSeasons(Observable<List<Season>> observable) {
+        when(mMockApiProvider.getPopularShowsService()).thenReturn(mMockPopularShowsService);
+        when(mMockPopularShowsService.getSeasons(anyInt(), anyString())).thenReturn(observable);
+    }
+
+    private void stubFavoriteDao() {
+        when(mMockShowFavoriteDao.deleteFavorit((Show) anyObject())).thenReturn(anyBoolean());
     }
 }

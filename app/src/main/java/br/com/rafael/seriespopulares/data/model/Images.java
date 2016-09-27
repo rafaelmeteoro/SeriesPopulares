@@ -28,6 +28,14 @@ public class Images implements Parcelable {
         return banner;
     }
 
+    public void setFanart(Fanart fanart) {
+        this.fanart = fanart;
+    }
+
+    public void setBanner(Banner banner) {
+        this.banner = banner;
+    }
+
     public Images() {
 
     }
