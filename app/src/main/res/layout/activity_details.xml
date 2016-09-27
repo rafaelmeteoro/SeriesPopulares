@@ -50,7 +50,7 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/activity_details_fab_margin"
         android:src="@drawable/ic_heart_outline"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end" />

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View Error -->
+    <dimen name="view_error_text_size">24sp</dimen>
+    <dimen name="view_erro_padding">20dp</dimen>
+
+    <!-- Layout Item Shows -->
+    <dimen name="layout_item_shows_margin">10dp</dimen>
+    <dimen name="layout_item_shows_card_corner_radius">5dp</dimen>
+    <dimen name="layout_item_shows_elevation">4dp</dimen>
+    <dimen name="layout_item_shows_iv_height">220dp</dimen>
+    <dimen name="layout_item_shows_title_padding">16dp</dimen>
+    <dimen name="layout_item_shows_title_text_size">20sp</dimen>
+    <dimen name="layout_item_shows_text_size">18sp</dimen>
+    <dimen name="layout_item_shows_year_margin_top">10dp</dimen>
+    <dimen name="layout_item_shows_padding_left_right">10dp</dimen>
+    <dimen name="layout_item_shows_padding_heart">10dp</dimen>
+
+    <!-- Activity Details -->
+    <dimen name="activity_details_collapse_height">360dp</dimen>
+    <dimen name="activity_details_fab_margin">16dp</dimen>
+
+    <!-- Content Details Scrolling -->
+    <dimen name="content_details_scrolling_padding">22dp</dimen>
+    <dimen name="content_details_scrolling_label_text_size">26sp</dimen>
+    <dimen name="content_details_scrolling_value_text_size">22sp</dimen>
+    <dimen name="content_details_scrolling_descricao_margin_top">24dp</dimen>
+    <dimen name="content_details_scrolling_generos_margin_top">15dp</dimen>
+    <dimen name="content_details_scrolling_distance_top">10dp</dimen>
+
+</resources>

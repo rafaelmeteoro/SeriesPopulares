@@ -61,7 +61,8 @@
             android:layout_marginTop="@dimen/layout_item_shows_year_margin_top"
             android:paddingLeft="@dimen/layout_item_shows_padding_left_right"
             android:paddingRight="@dimen/layout_item_shows_padding_left_right"
-            android:text="@string/layout_item_shows_year_label" />
+            android:text="@string/layout_item_shows_year_label"
+            android:textSize="@dimen/layout_item_shows_text_size" />
 
         <TextView
             android:id="@+id/tv_rating"
@@ -71,7 +72,8 @@
             android:layout_marginTop="@dimen/layout_item_shows_year_margin_top"
             android:paddingLeft="@dimen/layout_item_shows_padding_left_right"
             android:paddingRight="@dimen/layout_item_shows_padding_left_right"
-            android:text="@string/layout_item_shows_raging_label" />
+            android:text="@string/layout_item_shows_raging_label"
+            android:textSize="@dimen/layout_item_shows_text_size" />
 
     </LinearLayout>
 

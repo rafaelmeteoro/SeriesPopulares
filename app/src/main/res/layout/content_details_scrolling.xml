@@ -51,7 +51,8 @@
             android:id="@+id/tv_sinopse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/content_details_scrolling_distance_top" />
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
+            android:textSize="@dimen/content_details_scrolling_value_text_size" />
 
         <TextView
             android:layout_width="match_parent"
@@ -66,12 +67,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
+            android:textSize="@dimen/content_details_scrolling_value_text_size"
             android:textStyle="italic" />
 
         <FrameLayout
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top">
 
             <include layout="@layout/merge_list_episodes" />
 

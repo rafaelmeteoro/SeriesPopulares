@@ -14,16 +14,19 @@
     <dimen name="layout_item_shows_iv_height">150dp</dimen>
     <dimen name="layout_item_shows_title_padding">16dp</dimen>
     <dimen name="layout_item_shows_title_text_size">16sp</dimen>
+    <dimen name="layout_item_shows_text_size">14sp</dimen>
     <dimen name="layout_item_shows_year_margin_top">10dp</dimen>
     <dimen name="layout_item_shows_padding_left_right">10dp</dimen>
     <dimen name="layout_item_shows_padding_heart">10dp</dimen>
 
     <!-- Activity Details -->
     <dimen name="activity_details_collapse_height">220dp</dimen>
+    <dimen name="activity_details_fab_margin">16dp</dimen>
 
     <!-- Content Details Scrolling -->
     <dimen name="content_details_scrolling_padding">16dp</dimen>
     <dimen name="content_details_scrolling_label_text_size">16sp</dimen>
+    <dimen name="content_details_scrolling_value_text_size">14sp</dimen>
     <dimen name="content_details_scrolling_descricao_margin_top">20dp</dimen>
     <dimen name="content_details_scrolling_generos_margin_top">10dp</dimen>
     <dimen name="content_details_scrolling_distance_top">5dp</dimen>

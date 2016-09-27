@@ -16,15 +16,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Episódios"
-            android:textSize="16sp"
+            android:text="@string/content_details_scrolling_label_episodios"
+            android:textSize="@dimen/content_details_scrolling_label_text_size"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_episodes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="@dimen/content_details_scrolling_distance_top"
+            android:textSize="@dimen/content_details_scrolling_value_text_size" />
 
     </LinearLayout>
 
