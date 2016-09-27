@@ -4,6 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
@@ -19,6 +22,7 @@ import br.com.rafael.seriespopulares.R;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.injection.component.ActivityComponent;
 import br.com.rafael.seriespopulares.ui.base.BaseMvpActivity;
+import br.com.rafael.seriespopulares.ui.shows.ShowsActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -29,7 +33,8 @@ import butterknife.OnClick;
 
 public class DetailsActivity extends BaseMvpActivity implements DetailsContract.View {
 
-    private static final String EXTRA_SHOW = "EXTRA_SHOW";
+    public static final String EXTRA_SHOW = "EXTRA_SHOW";
+    public static final String EXTRA_POSITION = "EXTRA_POSITION";
 
     @Bind(R.id.toolbar)
     protected Toolbar mToolbar;
@@ -61,14 +66,19 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
     @Bind(R.id.error_view)
     protected TextView mErrorView;
 
+    @Bind(R.id.fab)
+    protected FloatingActionButton mFab;
+
     private Show mShow;
+    private int mPosition;
 
     @Inject
     protected DetailsPresenter mPresenter;
 
-    public static Intent getStartIntent(Context context, Show show) {
+    public static Intent getStartIntent(Context context, Show show, int position) {
         Intent intent = new Intent(context, DetailsActivity.class);
         intent.putExtra(EXTRA_SHOW, show);
+        intent.putExtra(EXTRA_POSITION, position);
         return intent;
     }
 
@@ -83,6 +93,7 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
         setupViews();
 
         mShow = getIntent().getParcelableExtra(EXTRA_SHOW);
+        mPosition = getIntent().getIntExtra(EXTRA_POSITION, 0);
         mPresenter.setInfoShow(mShow);
         mPresenter.getSeasons(mShow);
     }
@@ -109,11 +120,21 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
         mPresenter.getSeasons(mShow);
     }
 
+    @OnClick(R.id.fab)
+    public void onFabClick() {
+        mPresenter.favoriteShow(mShow);
+    }
+
     @Override
     public void setTitle(String title) {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(title);
         }
+    }
+
+    @Override
+    public void setFavorite(boolean isFavorite) {
+        mFab.setImageResource(isFavorite ? R.drawable.ic_heart : R.drawable.ic_heart_outline);
     }
 
     @Override
@@ -173,5 +194,19 @@ public class DetailsActivity extends BaseMvpActivity implements DetailsContract.
         mErrorView.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_sentiment_very_dissatisfied_gray, 0, 0);
         mErrorView.setText(R.string.view_erro_text);
         mErrorView.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void showMessage(int resId) {
+        Snackbar snackbar = Snackbar.make(mContentView, resId, Snackbar.LENGTH_LONG);
+        snackbar.show();
+    }
+
+    @Override
+    public void updateShow(Show show) {
+        Intent intent = new Intent(ShowsActivity.UPDATE_SHOW_INTENT_FILTER);
+        intent.putExtra(EXTRA_SHOW, show);
+        intent.putExtra(EXTRA_POSITION, mPosition);
+        LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
     }
 }

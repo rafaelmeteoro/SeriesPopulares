@@ -12,6 +12,8 @@ public interface DetailsContract {
     interface View extends MvpView {
         void setTitle(String title);
 
+        void setFavorite(boolean isFavorite);
+
         void setBanner(String banner);
 
         void setYear(int year);
@@ -31,11 +33,17 @@ public interface DetailsContract {
         void showEmpty();
 
         void showError();
+
+        void showMessage(int resId);
+
+        void updateShow(Show show);
     }
 
     interface Presenter {
         void setInfoShow(Show show);
 
         void getSeasons(Show show);
+
+        void favoriteShow(Show show);
     }
 }

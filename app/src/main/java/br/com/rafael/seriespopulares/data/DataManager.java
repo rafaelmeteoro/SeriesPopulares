@@ -13,7 +13,6 @@ import br.com.rafael.seriespopulares.data.operator.WorkerOperator;
 import br.com.rafael.seriespopulares.data.remote.ApiProvider;
 import rx.Observable;
 import rx.functions.Func1;
-import timber.log.Timber;
 
 /**
  * Created by rafael on 9/25/16.
@@ -80,11 +79,6 @@ public class DataManager {
             builder.append("\n");
         }
         return builder.toString();
-    }
-
-    public Observable<Boolean> saveShowFavorite(Show show) {
-        return Observable.just(mShowFavoriteDao.saveShowFavorite(show))
-                .compose(new WorkerOperator<Boolean>());
     }
 
     public Observable<Show> favoriteOrUnfavoriteShow(Show show) {

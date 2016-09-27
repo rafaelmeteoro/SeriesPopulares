@@ -32,7 +32,7 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private ShowsItemClickListener mListener;
 
     public interface ShowsItemClickListener {
-        void onShowClick(Show show);
+        void onShowClick(Show show, int position);
         void onFavoriteClick(Show show, int position);
     }
 
@@ -85,10 +85,10 @@ public class ShowsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     public void onClick(View v) {
         if (mListener != null) {
             ItemShowsViewHolder holder = (ItemShowsViewHolder) v.getTag();
+            int position = holder.getAdapterPosition();
             if (v.getId() == R.id.ll_item) {
-                mListener.onShowClick(mList.get(holder.getAdapterPosition()));
+                mListener.onShowClick(mList.get(position), position);
             } else if (v.getId() == R.id.ib_heart) {
-                int position = holder.getAdapterPosition();
                 mListener.onFavoriteClick(mList.get(position), position);
             }
         }

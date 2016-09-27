@@ -2,6 +2,7 @@ package br.com.rafael.seriespopulares.ui.details;
 
 import javax.inject.Inject;
 
+import br.com.rafael.seriespopulares.R;
 import br.com.rafael.seriespopulares.data.DataManager;
 import br.com.rafael.seriespopulares.data.model.Show;
 import br.com.rafael.seriespopulares.ui.base.BaseRxPresenter;
@@ -26,6 +27,7 @@ public class DetailsPresenter extends BaseRxPresenter<DetailsContract.View> impl
     public void setInfoShow(Show show) {
         checkViewAttached();
         getMvpView().setTitle(show.getTitle());
+        getMvpView().setFavorite(show.isFavorite());
         getMvpView().setBanner(show.getImages().getBanner().getFull());
         getMvpView().setYear(show.getYear());
         getMvpView().setRating(show.getRating());
@@ -59,6 +61,34 @@ public class DetailsPresenter extends BaseRxPresenter<DetailsContract.View> impl
                             getMvpView().showEmpty();
                         } else {
                             getMvpView().setEpisodes(value);
+                        }
+                    }
+                });
+    }
+
+    @Override
+    public void favoriteShow(Show show) {
+        checkViewAttached();
+
+        unsubscribe();
+        mSubscription = mDataManager.favoriteOrUnfavoriteShow(show)
+                .subscribe(new Subscriber<Show>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        getMvpView().showMessage(R.string.favorite_shows_unfavorite_failed);
+                    }
+
+                    @Override
+                    public void onNext(Show show) {
+                        getMvpView().setFavorite(show.isFavorite());
+                        getMvpView().updateShow(show);
+                        if (show.isFavorite()) {
+                            getMvpView().showMessage(R.string.favorite_shows_success);
                         }
                     }
                 });

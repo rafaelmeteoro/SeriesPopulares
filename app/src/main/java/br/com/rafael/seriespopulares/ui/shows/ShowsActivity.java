@@ -1,9 +1,14 @@
 package br.com.rafael.seriespopulares.ui.shows;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -33,6 +38,8 @@ import timber.log.Timber;
  **/
 
 public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View, ShowsAdapter.ShowsItemClickListener {
+
+    public static final String UPDATE_SHOW_INTENT_FILTER = "UPDATE_INTENT_UPDATE_FILTER";
 
     // Quantidade de colunas do grid
     private static final int COLUMN_TWO = 2;
@@ -76,6 +83,9 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
         setupViews();
 
         mPresenter.getShows(FIRST_PAGE);
+
+        LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver,
+                new IntentFilter(UPDATE_SHOW_INTENT_FILTER));
     }
 
     /**
@@ -120,9 +130,20 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
         mRecyclerView.setAdapter(mAdapter);
     }
 
+    private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Show show = intent.getParcelableExtra(DetailsActivity.EXTRA_SHOW);
+            int position = intent.getIntExtra(DetailsActivity.EXTRA_POSITION, 0);
+
+            updateData(show, position);
+        }
+    };
+
     @Override
     protected void onDestroy() {
         mPresenter.detachView();
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiver);
         super.onDestroy();
     }
 
@@ -138,8 +159,8 @@ public class ShowsActivity extends BaseMvpActivity implements ShowsContract.View
     }
 
     @Override
-    public void onShowClick(Show show) {
-        startActivity(DetailsActivity.getStartIntent(this, show));
+    public void onShowClick(Show show, int position) {
+        startActivity(DetailsActivity.getStartIntent(this, show, position));
     }
 
     @Override
