@@ -90,6 +90,14 @@ public class Show implements Parcelable {
         return builder.toString();
     }
 
+    public String getTextShare() {
+        String msg = "";
+        msg += title + "\n\n";
+        msg += "Overview" + "\n\n";
+        msg += overview;
+        return msg;
+    }
+
     public Show() {
 
     }

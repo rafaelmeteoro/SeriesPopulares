@@ -23,4 +23,7 @@
     <string name="content_details_scrolling_label_descricao">Descrição</string>
     <string name="content_details_scrolling_label_generos">Gêneros</string>
 
+    <!-- Menu Details -->
+    <string name="menu_details_share">Compartilhar</string>
+
 </resources>
